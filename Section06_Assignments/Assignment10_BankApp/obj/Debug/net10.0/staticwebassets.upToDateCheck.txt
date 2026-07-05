@@ -1,0 +1,3 @@
+wwwroot\Section06.pdf
+wwwroot\TextFile.txt
+F:\Udemy\Learning\ASP.NetCore\Assignments\Section06_Assignments\Assignment10_BankApp\wwwroot\TextFile.txt
