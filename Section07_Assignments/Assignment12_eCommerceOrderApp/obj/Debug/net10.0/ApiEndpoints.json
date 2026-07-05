@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Assignment12_eCommerceOrderApp.Controllers.OrderController",
+    "Method": "Index",
+    "RelativePath": "order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "Assignment12_eCommerceOrderApp.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
