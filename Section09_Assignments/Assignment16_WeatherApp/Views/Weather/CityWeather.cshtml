@@ -1,0 +1,21 @@
+﻿@model CityWeather
+
+
+<div class="box flex-borderless" style="padding: 0;">
+    <div class="w-50">
+        <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 5px;">
+            @Model.CityName
+        </div>
+        <div class="text-dark-grey" style="font-size: 0.85em; margin-bottom: 10px;">
+            @Model.DateAndTime
+        </div>
+        <div>
+            <a href="/">Back to Weather Home Page</a>
+        </div>
+    </div>
+
+    <div class="w-50 border-left padding-left" style="display: flex; align-items: center;">
+        <h1 style="margin: 0;">@Model.TemperatureFahrenheit</h1>
+        <span class="text-dark-grey" style="font-weight: bold; margin-left: 5px; margin-bottom: 15px;">°F</span>
+    </div>
+</div>
