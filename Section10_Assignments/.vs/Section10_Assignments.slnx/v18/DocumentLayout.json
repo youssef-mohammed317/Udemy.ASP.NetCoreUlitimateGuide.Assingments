@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section10_assignments\\assignment18_weatherapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|solutionrelative:assignment18_weatherapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section10_assignments\\assignment18_weatherapp\\views\\weather\\cityweather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|solutionrelative:assignment18_weatherapp\\views\\weather\\cityweather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section10_assignments\\assignment18_weatherapp\\views\\weather\\_citypartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|solutionrelative:assignment18_weatherapp\\views\\weather\\_citypartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section10_assignments\\assignment18_weatherapp\\views\\weather\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|solutionrelative:assignment18_weatherapp\\views\\weather\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section10_assignments\\assignment18_weatherapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|solutionrelative:assignment18_weatherapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section10_assignments\\assignment18_weatherapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|solutionrelative:assignment18_weatherapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section10_assignments\\assignment18_weatherapp\\models\\cityweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|solutionrelative:assignment18_weatherapp\\models\\cityweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section10_assignments\\assignment18_weatherapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|solutionrelative:assignment18_weatherapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section10_assignments\\assignment18_weatherapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35428F15-6E88-439A-8535-3E9FE2762D91}|Assignment18_WeatherApp\\Assignment18_WeatherApp.csproj|solutionrelative:assignment18_weatherapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1211,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Assignment18_WeatherApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Assignment18_WeatherApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-06T23:40:48.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_CityPartialView.cshtml",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\Weather\\_CityPartialView.cshtml",
+              "RelativeDocumentMoniker": "Assignment18_WeatherApp\\Views\\Weather\\_CityPartialView.cshtml",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\Weather\\_CityPartialView.cshtml",
+              "RelativeToolTip": "Assignment18_WeatherApp\\Views\\Weather\\_CityPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-06T23:40:23.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Assignment18_WeatherApp\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Assignment18_WeatherApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-06T23:27:38.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CityWeather.cshtml",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\Weather\\CityWeather.cshtml",
+              "RelativeDocumentMoniker": "Assignment18_WeatherApp\\Views\\Weather\\CityWeather.cshtml",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\Weather\\CityWeather.cshtml",
+              "RelativeToolTip": "Assignment18_WeatherApp\\Views\\Weather\\CityWeather.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-06T23:23:47.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\Weather\\Index.cshtml",
+              "RelativeDocumentMoniker": "Assignment18_WeatherApp\\Views\\Weather\\Index.cshtml",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\Weather\\Index.cshtml",
+              "RelativeToolTip": "Assignment18_WeatherApp\\Views\\Weather\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-06T23:23:46.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Assignment18_WeatherApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Assignment18_WeatherApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-06T23:21:59.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CityWeather.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Models\\CityWeather.cs",
+              "RelativeDocumentMoniker": "Assignment18_WeatherApp\\Models\\CityWeather.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Models\\CityWeather.cs",
+              "RelativeToolTip": "Assignment18_WeatherApp\\Models\\CityWeather.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:21:53.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Assignment18_WeatherApp\\Controllers\\WeatherController.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Assignment18_WeatherApp\\Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:21:36.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment18_WeatherApp\\Program.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section10_Assignments\\Assignment18_WeatherApp\\Program.cs",
+              "RelativeToolTip": "Assignment18_WeatherApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:21:17.088Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

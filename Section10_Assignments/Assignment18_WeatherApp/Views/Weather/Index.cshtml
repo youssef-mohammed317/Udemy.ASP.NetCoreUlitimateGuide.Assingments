@@ -1,0 +1,31 @@
+﻿@model List<CityWeather>
+@{
+    string GetColorClass(int? temp)
+    {
+        if (temp == null)
+            return "";
+        if (temp < 44)
+        {
+            return "blue-back";
+        }
+        else if (temp < 74)
+        {
+            return "green-back";
+        }
+        else
+        {
+            return "orange-back";
+        }
+    }
+}
+<div class="flex">
+    @foreach (var city in Model)
+    {
+  
+        ViewBag.Color = GetColorClass(city.TemperatureFahrenheit);
+        ViewBag.Link = $"weather/{city.CityUniqueCode}";
+        ViewBag.LinkText = "Details";
+
+        <partial name="_CityPartialView" model="@city" view-data="ViewData" />
+    }
+</div>
