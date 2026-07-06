@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Assignment14_WeatherApp/1.0.0": {
+        "runtime": {
+          "Assignment14_WeatherApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assignment14_WeatherApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

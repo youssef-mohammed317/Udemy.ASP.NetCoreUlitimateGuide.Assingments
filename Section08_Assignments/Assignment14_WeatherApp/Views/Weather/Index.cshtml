@@ -1,0 +1,54 @@
+﻿@model List<CityWeather>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="~/StyleSheet.css" />
+</head>
+<body>
+    <div class="page-content container">
+        <h2 style="margin: 10px 0 20px 10px;">Weather</h2>
+
+        <div class="flex">
+            @foreach (var city in Model)
+            {
+                string backcolorClass = "";
+                if (city.TemperatureFahrenheit < 44)
+                {
+                    backcolorClass = "blue-back";
+                }
+                else if (city.TemperatureFahrenheit < 74)
+                {
+                    backcolorClass = "green-back";
+                }
+                else
+                {
+                    backcolorClass = "orange-back";
+                }
+
+                <div class="box @backcolorClass flex-borderless" style="padding: 0;">
+                    <div class="w-50">
+                        <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 5px;">
+                            @city.CityName
+                        </div>
+                        <div class="text-dark-grey" style="font-size: 0.85em; margin-bottom: 10px;">
+                            @city.DateAndTime
+                        </div>
+                        <div>
+                            <a href="weather/@city.CityUniqueCode" style="font-size: 0.9em;">Details</a>
+                        </div>
+                    </div>
+
+                    <div class="w-50 border-left padding-left" style="display: flex; align-items: center;">
+                        <h1 style="margin: 0;">@city.TemperatureFahrenheit</h1>
+                        <span class="text-dark-grey" style="font-weight: bold; margin-left: 5px; margin-bottom: 15px;">°F</span>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

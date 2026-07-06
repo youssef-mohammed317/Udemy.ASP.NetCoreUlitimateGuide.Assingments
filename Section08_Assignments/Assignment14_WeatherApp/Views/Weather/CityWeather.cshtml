@@ -1,0 +1,33 @@
+﻿@model CityWeather
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York City Weather</title>
+    <link rel="stylesheet" href="~/StyleSheet.css"/>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Weather</h1>
+    </div>
+
+    <div class="main-content">
+        <div class="weather-card">
+            <div class="city-details">
+                <p class="city-name">@Model.CityName</p>
+                <p class="date-time">@Model.DateAndTime</p>
+            </div>
+            <div class="temperature-section">
+                <p class="temperature">@Model.TemperatureFahrenheit <span class="unit">°F</span></p>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="/">Back to Weather Home Page</a>
+        </div>
+    </div>
+
+</body>
+</html>
