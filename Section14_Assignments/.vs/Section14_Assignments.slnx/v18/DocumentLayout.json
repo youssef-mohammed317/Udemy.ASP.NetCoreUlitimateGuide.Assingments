@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section14_assignments\\assignment24_socialmedialinks\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|solutionrelative:assignment24_socialmedialinks\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section14_assignments\\assignment24_socialmedialinks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|solutionrelative:assignment24_socialmedialinks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section14_assignments\\assignment24_socialmedialinks\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|solutionrelative:assignment24_socialmedialinks\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section14_assignments\\assignment24_socialmedialinks\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|solutionrelative:assignment24_socialmedialinks\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section14_assignments\\assignment24_socialmedialinks\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|solutionrelative:assignment24_socialmedialinks\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section14_assignments\\assignment24_socialmedialinks\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|solutionrelative:assignment24_socialmedialinks\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\section14_assignments\\assignment24_socialmedialinks\\options\\socialmedialinksoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D660E1EE-6BCD-458C-9271-BB32B8216D16}|Assignment24_SocialMediaLinks\\Assignment24_SocialMediaLinks.csproj|solutionrelative:assignment24_socialmedialinks\\options\\socialmedialinksoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1211,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Assignment24_SocialMediaLinks\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Assignment24_SocialMediaLinks\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-07T00:51:42.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Assignment24_SocialMediaLinks\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Assignment24_SocialMediaLinks\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-07T00:41:32.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Assignment24_SocialMediaLinks\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Assignment24_SocialMediaLinks\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-07T00:40:40.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Assignment24_SocialMediaLinks\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Assignment24_SocialMediaLinks\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T00:37:25.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SocialMediaLinksOptions.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Options\\SocialMediaLinksOptions.cs",
+              "RelativeDocumentMoniker": "Assignment24_SocialMediaLinks\\Options\\SocialMediaLinksOptions.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Options\\SocialMediaLinksOptions.cs",
+              "RelativeToolTip": "Assignment24_SocialMediaLinks\\Options\\SocialMediaLinksOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T00:34:32.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Assignment24_SocialMediaLinks\\appsettings.Development.json",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\appsettings.Development.json",
+              "RelativeToolTip": "Assignment24_SocialMediaLinks\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-07T00:34:03.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment24_SocialMediaLinks\\Program.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\Section14_Assignments\\Assignment24_SocialMediaLinks\\Program.cs",
+              "RelativeToolTip": "Assignment24_SocialMediaLinks\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T00:33:24.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
