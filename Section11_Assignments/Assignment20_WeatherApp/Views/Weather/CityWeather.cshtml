@@ -1,0 +1,9 @@
+﻿@model CityWeather
+
+@await Component.InvokeAsync("City",new
+    {
+        city = Model,
+        link = "/",
+    linkText = "Back to Weather Home Page",
+        needColor = false
+    });

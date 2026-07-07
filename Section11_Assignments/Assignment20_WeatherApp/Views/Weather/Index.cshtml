@@ -1,0 +1,18 @@
+﻿@model List<CityWeather>
+
+<div class="flex">
+    @foreach (var city in Model)
+    {
+ 
+        @await Component.InvokeAsync("City",new
+            {
+                city = city,
+                link = $"weather/{city.CityUniqueCode}",
+                linkText = "Details",
+                needColor = true,
+            })
+
+        ;
+
+        }
+</div>
