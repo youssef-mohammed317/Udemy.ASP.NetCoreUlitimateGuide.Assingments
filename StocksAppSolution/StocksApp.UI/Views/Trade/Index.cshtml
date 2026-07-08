@@ -1,0 +1,69 @@
+﻿@using Microsoft.Extensions.Options
+@using StocksApp.UI.Options
+@model StockTradeViewModel;
+@inject IOptions<TradingOptions> options;
+
+<!-- Store the stock symbol in a hidden field so JavaScript can read it -->
+<input type="hidden" id="StockSymbol" value="@Model.StockSymbol" />
+
+<!-- Outer box container with border and shadow for the specific stock -->
+<div class="box stock">
+
+    <!-- Stock name and symbol styled with the blue title class -->
+    <div class="stock-title">
+        @Model.StockName (@Model.StockSymbol)
+    </div>
+
+    <!-- Container for the price to add top margin -->
+    <div class="mt">
+
+        <!-- Currency symbol colored in grey -->
+        <span class="text-grey">$</span>
+
+        <!-- Large font size for the actual numeric stock price -->
+        <span class="stock-price" id="stockPrice">@Model.Price</span>
+
+    </div>
+
+</div>
+
+<!-- JavaScript section for Finnhub WebSocket connection -->
+<script>
+    // 1. Read the stock symbol from the hidden HTML element
+    const stockSymbol = document.getElementById('StockSymbol').value;
+
+    // 2. Define the Finnhub token (Using the one provided in your requirements)
+    const token = "@(options.Value.SecretToken)";
+
+    // 3. Open a new WebSocket connection to Finnhub
+    const socket = new WebSocket(`wss://ws.finnhub.io?token=${token}`);
+
+    // 4. When the connection is successfully opened, send a subscribe message for our stock
+    socket.addEventListener('open', function (event) {
+        socket.send(JSON.stringify({'type':'subscribe', 'symbol': stockSymbol}));
+    });
+
+    // 5. Listen for incoming messages (live price updates) from the server
+    socket.addEventListener('message', function (event) {
+
+        // Parse the JSON string response into a JavaScript object
+        const response = JSON.parse(event.data);
+
+        // Check if the response type is 'trade' and the data array is not empty
+        if (response.type === 'trade' && response.data && response.data.length > 0) {
+
+            // Extract the latest price 'p' from the first element in the 'data' array
+            const latestPrice = response.data[0].p;
+
+            // Update the text of our price span in the HTML
+            // We use toFixed(2) to ensure the price always shows 2 decimal places
+            document.getElementById('stockPrice').innerText = latestPrice.toFixed(2);
+        }
+    });
+
+    // 6. When the user closes or leaves the page, unsubscribe and close the socket
+    window.addEventListener('beforeunload', function () {
+        socket.send(JSON.stringify({'type':'unsubscribe','symbol': stockSymbol}));
+        socket.close();
+    });
+</script>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="StocksApp.BLL/StocksApp.BLL.csproj" />
+  <Project Path="StocksApp.UI/StocksApp.UI.csproj" />
+</Solution>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price View</title>
+
+    <!-- Linking the provided external CSS file exactly by its name -->
+    <link rel="stylesheet" href="~/StyleSheet.css">
+</head>
+<body>
+
+    <!-- Main wrapper container to hold the page elements -->
+    <div class="container">
+
+        <!-- Application title section -->
+        <div class="app-title">
+            <!-- Using an emoji as a simple placeholder for the stock icon -->
+            <span style="font-size: 0.8em;">&#128181;</span> Stocks
+        </div>
+
+       @RenderBody()
+
+    </div>
+
+</body>
+</html>

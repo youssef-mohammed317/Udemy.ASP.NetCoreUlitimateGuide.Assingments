@@ -1,0 +1,2 @@
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.UI\wwwroot\StyleSheet.css
+wwwroot\StyleSheet.css
