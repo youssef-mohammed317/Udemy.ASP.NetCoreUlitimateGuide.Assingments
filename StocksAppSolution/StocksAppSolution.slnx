@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="StocksApp.BLL.Tests/StocksApp.BLL.Tests.csproj" Id="1f506ab9-d359-4fd1-a621-2c26326bc22f" />
   <Project Path="StocksApp.BLL/StocksApp.BLL.csproj" />
+  <Project Path="StocksApp.DAL/StocksApp.DAL.csproj" Id="e9aebbee-a2c9-48a3-a1d8-e3f24e63b156" />
   <Project Path="StocksApp.UI/StocksApp.UI.csproj" />
 </Solution>

@@ -7,10 +7,12 @@ using StocksApp.UI.ViewModels;
 namespace StocksApp.UI.Controllers;
 
 [Route("[controller]/[action]")]
-public class TradeController(IFinnhubService finnhubService, IOptions<TradingOptions> tradingOptions) : Controller
+public class TradeController(IFinnhubService finnhubService, IOptions<TradingOptions> tradingOptions, IStocksService stocksService) : Controller
 {
     private readonly TradingOptions _tradingOptions = tradingOptions.Value;
     private readonly IFinnhubService _finnhubService = finnhubService;
+    private readonly IStocksService _stocksService = stocksService;
+
     [HttpGet]
     public async Task<IActionResult> Index()
     {

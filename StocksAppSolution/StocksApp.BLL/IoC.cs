@@ -9,6 +9,7 @@ public static class IoC
     public static IServiceCollection AddBusinessLogicLayer(this IServiceCollection services)
     {
         services.AddScoped<IFinnhubService, FinnhubService>();
+        services.AddScoped<IStocksService, StocksService>();
 
         return services;
     }
