@@ -11,3 +11,6 @@ F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.BLL\obj\De
 F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.BLL\obj\Debug\net9.0\refint\StocksApp.BLL.dll
 F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.BLL\obj\Debug\net9.0\StocksApp.BLL.pdb
 F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.BLL\obj\Debug\net9.0\ref\StocksApp.BLL.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.BLL\bin\Debug\net9.0\StocksApp.DAL.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.BLL\bin\Debug\net9.0\StocksApp.DAL.pdb
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.BLL\obj\Debug\net9.0\StocksAp.8F59530C.Up2Date

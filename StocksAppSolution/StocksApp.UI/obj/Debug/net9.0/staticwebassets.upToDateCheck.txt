@@ -1,2 +1,3 @@
 F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.UI\wwwroot\StyleSheet.css
+wwwroot\Rotativa\wkhtmltopdf.exe
 wwwroot\StyleSheet.css

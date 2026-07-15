@@ -1,0 +1,15 @@
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\bin\Debug\net9.0\StocksApp.DAL.deps.json
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\bin\Debug\net9.0\StocksApp.DAL.runtimeconfig.json
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\bin\Debug\net9.0\StocksApp.DAL.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\bin\Debug\net9.0\StocksApp.DAL.pdb
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\StocksApp.DAL.csproj.AssemblyReference.cache
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\StocksApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\StocksApp.DAL.AssemblyInfoInputs.cache
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\StocksApp.DAL.AssemblyInfo.cs
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\StocksApp.DAL.csproj.CoreCompileInputs.cache
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\StocksApp.DAL.sourcelink.json
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\StocksApp.DAL.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\refint\StocksApp.DAL.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\StocksApp.DAL.pdb
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\StocksApp.DAL.genruntimeconfig.cache
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppSolution\StocksApp.DAL\obj\Debug\net9.0\ref\StocksApp.DAL.dll

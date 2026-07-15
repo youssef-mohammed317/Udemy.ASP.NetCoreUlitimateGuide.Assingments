@@ -1,0 +1,57 @@
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace StocksApp.DAL.Migrations
+{
+    /// <inheritdoc />
+    public partial class InitialCreate : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "BuyOrders",
+                columns: table => new
+                {
+                    BuyOrderID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    StockSymbol = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    StockName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DateAndTimeOfOrder = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    Quantity = table.Column<long>(type: "bigint", nullable: true),
+                    Price = table.Column<decimal>(type: "decimal(9,2)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BuyOrders", x => x.BuyOrderID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "SellOrders",
+                columns: table => new
+                {
+                    SellOrderID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    StockSymbol = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    StockName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DateAndTimeOfOrder = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    Quantity = table.Column<long>(type: "bigint", nullable: true),
+                    Price = table.Column<decimal>(type: "decimal(9,2)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SellOrders", x => x.SellOrderID);
+                });
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "BuyOrders");
+
+            migrationBuilder.DropTable(
+                name: "SellOrders");
+        }
+    }
+}

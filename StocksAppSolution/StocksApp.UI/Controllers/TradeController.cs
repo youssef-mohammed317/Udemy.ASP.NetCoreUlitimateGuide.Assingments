@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Rotativa.AspNetCore;
 using StocksApp.BLL.DTOs;
 using StocksApp.BLL.Services.Contracts;
 using StocksApp.UI.Options;
@@ -15,10 +16,8 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
     private readonly IFinnhubService _finnhubService = finnhubService;
     private readonly IStocksService _stocksService = stocksService;
 
-    private readonly string _orderBuyRequestKey = "OrderBuyRequest";
-    private readonly string _orderSellRequestKey = "OrderSellRequest";
-
     [HttpGet]
+    [Route("/")]
     public async Task<IActionResult> Index()
     {
         StockTradeViewModel viewModel = new StockTradeViewModel();
@@ -57,6 +56,10 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
         if (ModelState.IsValid)
         {
             var response = await _stocksService.CreateBuyOrderAsync(orderRequest);
+            if (response == null)
+            {
+                // you can send a notification or any thing
+            }
             return RedirectToAction(nameof(TradeController.Orders));
         }
 
@@ -78,6 +81,10 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
         if (ModelState.IsValid)
         {
             var response = await _stocksService.CreateSellOrderAsync(orderRequest);
+            if (response == null)
+            {
+                // you can send a notification or any thing
+            }
             return RedirectToAction(nameof(TradeController.Orders));
         }
 
@@ -100,5 +107,26 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
         orderViewModel.BuyOrders = await _stocksService.GetBuyOrdersAsync();
 
         return View(orderViewModel);
+    }
+    [HttpGet]
+    public async Task<IActionResult> OrdersPDF()
+    {
+        var orderViewModel = new OrdersViewModel();
+
+        orderViewModel.SellOrders = await _stocksService.GetSellOrdersAsync();
+        orderViewModel.BuyOrders = await _stocksService.GetBuyOrdersAsync();
+
+        return new ViewAsPdf("OrdersPDF", orderViewModel, ViewData)
+        {
+            PageMargins = new Rotativa.AspNetCore.Options.Margins()
+            {
+                Top = 20,
+                Bottom = 20,
+                Left = 20,
+                Right = 20,
+            },
+            PageSize = Rotativa.AspNetCore.Options.Size.A4,
+            PageOrientation = Rotativa.AspNetCore.Options.Orientation.Landscape
+        };
     }
 }

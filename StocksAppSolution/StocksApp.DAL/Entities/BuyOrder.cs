@@ -9,6 +9,7 @@ namespace StocksApp.DAL.Entities;
 
 public class BuyOrder
 {
+    [Key]
     public Guid BuyOrderID { get; set; }
     [Required]
     public string? StockSymbol { get; set; }

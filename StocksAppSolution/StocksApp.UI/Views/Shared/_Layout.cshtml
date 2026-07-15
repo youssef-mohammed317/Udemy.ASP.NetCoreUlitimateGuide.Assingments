@@ -41,6 +41,10 @@
                     <a asp-controller="Trade" asp-action="Orders"
                        class="@(currentAction == "Orders" ? "nav-active" : "")">Orders</a>
                 </li>
+                <li>
+                    <a asp-controller="Trade" asp-action="OrdersPDF"
+                       class="@(currentAction == "OrdersPDF" ? "nav-active" : "")">Download Pdf</a>
+                </li>
             </ul>
         </nav>
 

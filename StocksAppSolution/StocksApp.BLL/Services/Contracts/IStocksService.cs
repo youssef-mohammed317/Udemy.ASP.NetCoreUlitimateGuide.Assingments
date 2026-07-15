@@ -9,9 +9,9 @@ namespace StocksApp.BLL.Services.Contracts;
 
 public interface IStocksService
 {
-    Task<BuyOrderResponse> CreateBuyOrderAsync(BuyOrderRequest? buyOrderRequest);
+    Task<BuyOrderResponse?> CreateBuyOrderAsync(BuyOrderRequest? buyOrderRequest);
 
-    Task<SellOrderResponse> CreateSellOrderAsync(SellOrderRequest? sellOrderRequest);
+    Task<SellOrderResponse?> CreateSellOrderAsync(SellOrderRequest? sellOrderRequest);
 
     Task<List<BuyOrderResponse>> GetBuyOrdersAsync();
 
