@@ -34,6 +34,10 @@
         <nav class="navbar">
             <ul>
                 <li>
+                    <a asp-controller="Stocks" asp-action="Explore"
+                       class="@(currentAction == "Explore" ? "nav-active" : "")">Explore</a>
+                </li>
+                <li>
                     <a asp-controller="Trade" asp-action="Index"
                        class="@(currentAction == "Index" ? "nav-active" : "")">Trade</a>
                 </li>
@@ -41,14 +45,15 @@
                     <a asp-controller="Trade" asp-action="Orders"
                        class="@(currentAction == "Orders" ? "nav-active" : "")">Orders</a>
                 </li>
-                <li>
-                    <a asp-controller="Trade" asp-action="OrdersPDF"
-                       class="@(currentAction == "OrdersPDF" ? "nav-active" : "")">Download Pdf</a>
-                </li>
             </ul>
         </nav>
 
+
+
         <div class="page-content">
+
+
+
             @RenderBody()
         </div>
 

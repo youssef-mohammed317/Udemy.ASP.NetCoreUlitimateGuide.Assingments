@@ -1136,7 +1136,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
+          "Microsoft.Extensions.Http": "10.0.9"
         },
         "compile": {
           "bin/placeholder/StocksApp.DAL.dll": {}

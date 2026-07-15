@@ -6,4 +6,7 @@ public class TradingOptions
     public string? SecretToken { get; set; }
 
     public uint? DefaultOrderQuantity { get; set; }
+
+    public string? Top25PopularStocks { get; set; }
+
 }

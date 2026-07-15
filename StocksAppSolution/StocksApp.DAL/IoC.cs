@@ -2,6 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using StocksApp.DAL.DbContexts;
+using StocksApp.DAL.Repositories;
+using StocksApp.DAL.Repositories.Contracts;
+using StocksApp.DAL.Repositories.Implementations;
 
 namespace StocksApp.DAL;
 
@@ -14,6 +17,9 @@ public static class IoC
             var connectionString = configuration.GetConnectionString(nameof(StockMarketDbContext));
             options.UseSqlServer(connectionString);
         });
+
+        services.AddScoped<IFinnhubRepository, FinnhubRepository>();
+        services.AddScoped<IStocksRepository, StocksRepository>();
 
         return services;
     }

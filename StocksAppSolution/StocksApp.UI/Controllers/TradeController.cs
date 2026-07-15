@@ -22,9 +22,9 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
     {
         StockTradeViewModel viewModel = new StockTradeViewModel();
 
-        var companyProfile = await _finnhubService.GetCompanyProfile(_tradingOptions.DefaultStockSymbol!);
+        var companyProfile = await _finnhubService.GetCompanyProfileAsync(_tradingOptions.DefaultStockSymbol!);
 
-        var stockPriceQuote = await _finnhubService.GetStockPriceQuote(_tradingOptions.DefaultStockSymbol!);
+        var stockPriceQuote = await _finnhubService.GetStockPriceQuoteAsync(_tradingOptions.DefaultStockSymbol!);
 
         if (stockPriceQuote == null || companyProfile == null)
             return View(viewModel);

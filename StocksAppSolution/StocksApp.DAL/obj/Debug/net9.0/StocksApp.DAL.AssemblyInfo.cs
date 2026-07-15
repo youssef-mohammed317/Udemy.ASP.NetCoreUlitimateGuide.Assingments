@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StocksApp.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99b7b1d5eede41e30d9027b248ead43e4367b840")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40734c082e40a0c9923c4f70c7f30e78b914a099")]
 [assembly: System.Reflection.AssemblyProductAttribute("StocksApp.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StocksApp.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

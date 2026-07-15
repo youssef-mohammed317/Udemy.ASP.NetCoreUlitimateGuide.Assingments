@@ -4,6 +4,7 @@ using StocksApp.BLL.DTOs;
 using StocksApp.BLL.Services.Contracts;
 using StocksApp.DAL.DbContexts;
 using StocksApp.DAL.Entities;
+using StocksApp.DAL.Repositories.Contracts;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -13,10 +14,11 @@ using System.Threading.Tasks;
 
 namespace StocksApp.BLL.Services.Implementations;
 
-public class StocksService(StockMarketDbContext context, IMapper mapper) : IStocksService
+public class StocksService(IMapper mapper, IStocksRepository stocksRepository) : IStocksService
 {
-    private readonly StockMarketDbContext _context = context;
     private readonly IMapper _mapper = mapper;
+    private readonly IStocksRepository _stocksRepository = stocksRepository;
+
     //TradeAmount = Price* Quantity // done in mapping
     public async Task<BuyOrderResponse?> CreateBuyOrderAsync(BuyOrderRequest? buyOrderRequest)
     {
@@ -34,12 +36,11 @@ public class StocksService(StockMarketDbContext context, IMapper mapper) : IStoc
             throw new ArgumentException(string.Join(", ", errors.Select(e => e.ErrorMessage)));
         }
 
-        var request = _mapper.Map<BuyOrder>(buyOrderRequest);
-        await _context.BuyOrders.AddAsync(request);
-        var rowAffected = await _context.SaveChangesAsync();
-        if (rowAffected > 0)
-            return _mapper.Map<BuyOrderResponse>(request);
-        return null;
+        var buyOrder = _mapper.Map<BuyOrder>(buyOrderRequest);
+
+        var response = await _stocksRepository.CreateBuyOrderAsync(buyOrder);
+        if (response == null) return null;
+        return _mapper.Map<BuyOrderResponse>(response);
     }
 
     public async Task<SellOrderResponse?> CreateSellOrderAsync(SellOrderRequest? sellOrderRequest)
@@ -57,25 +58,24 @@ public class StocksService(StockMarketDbContext context, IMapper mapper) : IStoc
             throw new ArgumentException(string.Join(", ", errors.Select(e => e.ErrorMessage)));
         }
 
-        var request = _mapper.Map<SellOrder>(sellOrderRequest);
-        await _context.SellOrders.AddAsync(request);
-        var rowAffected = await _context.SaveChangesAsync();
-        if (rowAffected > 0)
-            return _mapper.Map<SellOrderResponse>(request);
-        return null;
-    }
+        var sellOrder = _mapper.Map<SellOrder>(sellOrderRequest);
+        var response = await _stocksRepository.CreateSellOrderAsync(sellOrder);
 
+        if (response == null) return null;
+
+        return _mapper.Map<SellOrderResponse>(response);
+    }
     public async Task<List<BuyOrderResponse>> GetBuyOrdersAsync()
     {
         //Returns the existing list of buy orders retrieved from database table called 'BuyOrders'.
-        var orders = await _context.BuyOrders.ToListAsync();
+        var orders = await _stocksRepository.GetBuyOrdersAsync();
         return _mapper.Map<List<BuyOrderResponse>>(orders);
     }
 
     public async Task<List<SellOrderResponse>> GetSellOrdersAsync()
     {
         //Returns the existing list of sell orders retrieved from database table called 'SellOrders'.
-        var orders = await _context.SellOrders.ToListAsync();
+        var orders = await _stocksRepository.GetSellOrdersAsync();
         return _mapper.Map<List<SellOrderResponse>>(orders);
     }
 }
