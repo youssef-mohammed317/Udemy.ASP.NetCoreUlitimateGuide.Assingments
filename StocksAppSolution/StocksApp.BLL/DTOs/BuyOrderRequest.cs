@@ -14,7 +14,7 @@ public class BuyOrderRequest
     public string? StockSymbol { get; set; }
     [Required]
     public string? StockName { get; set; }
-    [Required(ErrorMessage = "Date and Time of Order is required")]
+
     [DateRange(startDate: "2000-01-01")]
     public DateTime? DateAndTimeOfOrder { get; set; }
     [Range(1, 100000)]

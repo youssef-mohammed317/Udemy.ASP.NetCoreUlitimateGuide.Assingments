@@ -3,67 +3,100 @@
 @model StockTradeViewModel;
 @inject IOptions<TradingOptions> options;
 
-<!-- Store the stock symbol in a hidden field so JavaScript can read it -->
-<input type="hidden" id="StockSymbol" value="@Model.StockSymbol" />
+<!-- Breadcrumb -->
+<div class="mb">
+    <span class="text-grey">Stocks</span>
+    <i class="bi bi-chevron-right text-grey" style="font-size:0.7em;"></i>
+    <span>@Model.StockName</span>
+</div>
 
-<!-- Outer box container with border and shadow for the specific stock -->
-<div class="box stock">
+<div class="box trading-panel flex trading-panel-flex">
 
-    <!-- Stock name and symbol styled with the blue title class -->
-    <div class="stock-title">
-        @Model.StockName (@Model.StockSymbol)
+    <!-- Stock price panel -->
+    <div id="stock-price-panel">
+        <div class="stock-title">
+            @Model.StockName (@Model.StockSymbol)
+        </div>
+        <div class="mt">
+            <span class="text-grey">$</span>
+            <span class="stock-price" id="stockPrice">@Model.Price</span>
+        </div>
     </div>
 
-    <!-- Container for the price to add top margin -->
-    <div class="mt">
+    <!-- New order panel -->
+    <div id="new-order-panel">
+        <div class="text-grey mb">New Order</div>
 
-        <!-- Currency symbol colored in grey -->
-        <span class="text-grey">$</span>
+        <div class="form-field flex">
+            <div>
+                <label class="form-label" for="quantity">Quantity:</label>
+            </div>
+            <div>
+                <input type="number" class="form-input" id="quantity"
+                       form="sellOrderForm buyOrderForm"
+                       value="@Model.Quantity" />
+            </div>
+        </div>
 
-        <!-- Large font size for the actual numeric stock price -->
-        <span class="stock-price" id="stockPrice">@Model.Price</span>
+        <div class="button-panel">
 
+            <!-- Sell Form -->
+            <form id="sellOrderForm" method="post" asp-controller="Trade" asp-action="SellOrder" style="display:inline;">
+                <input type="hidden" name="StockSymbol" value="@Model.StockSymbol" />
+                <input type="hidden" name="StockName" value="@Model.StockName" />
+                <input type="hidden" name="Price" value="@Model.Price" />
+                <input type="hidden" name="Quantity" id="sellQuantity" value="@Model.Quantity" />
+                <button type="submit" class="trading-button button button-red-back">
+                    <i class="bi bi-arrow-down-circle"></i> Sell
+                </button>
+            </form>
+
+            <!-- Buy Form -->
+            <form id="buyOrderForm" method="post" asp-controller="Trade" asp-action="BuyOrder" style="display:inline;">
+                <input type="hidden" name="StockSymbol" value="@Model.StockSymbol" />
+                <input type="hidden" name="StockName" value="@Model.StockName" />
+                <input type="hidden" name="Price" value="@Model.Price" />
+                <input type="hidden" name="Quantity" id="buyQuantity" value="@Model.Quantity" />
+                <button type="submit" class="trading-button button button-green-back">
+                    <i class="bi bi-arrow-up-circle"></i> Buy
+                </button>
+            </form>
+
+        </div>
     </div>
 
 </div>
 
-<!-- JavaScript section for Finnhub WebSocket connection -->
+<!-- JavaScript: WebSocket + مزامنة الكمية مع الفورمين -->
+<input type="hidden" id="StockSymbol" value="@Model.StockSymbol" />
 <script>
-    // 1. Read the stock symbol from the hidden HTML element
-    const stockSymbol = document.getElementById('StockSymbol').value;
+    const quantityInput = document.getElementById('quantity');
+    const sellQuantity = document.getElementById('sellQuantity');
+    const buyQuantity = document.getElementById('buyQuantity');
 
-    // 2. Define the Finnhub token (Using the one provided in your requirements)
-    const token = "@(options.Value.SecretToken)";
-
-    // 3. Open a new WebSocket connection to Finnhub
-    const socket = new WebSocket(`wss://ws.finnhub.io?token=${token}`);
-
-    // 4. When the connection is successfully opened, send a subscribe message for our stock
-    socket.addEventListener('open', function (event) {
-        socket.send(JSON.stringify({'type':'subscribe', 'symbol': stockSymbol}));
+    quantityInput.addEventListener('input', function () {
+        sellQuantity.value = quantityInput.value;
+        buyQuantity.value = quantityInput.value;
     });
 
-    // 5. Listen for incoming messages (live price updates) from the server
+    const stockSymbol = document.getElementById('StockSymbol').value;
+    const token = "@(options.Value.SecretToken)";
+    const socket = new WebSocket(`wss://ws.finnhub.io?token=${token}`);
+
+    socket.addEventListener('open', function (event) {
+        socket.send(JSON.stringify({ 'type': 'subscribe', 'symbol': stockSymbol }));
+    });
+
     socket.addEventListener('message', function (event) {
-
-        // Parse the JSON string response into a JavaScript object
         const response = JSON.parse(event.data);
-
-        // Check if the response type is 'trade' and the data array is not empty
         if (response.type === 'trade' && response.data && response.data.length > 0) {
-
-            // Extract the latest price 'p' from the first element in the 'data' array
             const latestPrice = response.data[0].p;
-
-            // Update the text of our price span in the HTML
-            // We use toFixed(2) to ensure the price always shows 2 decimal places
             document.getElementById('stockPrice').innerText = latestPrice.toFixed(2);
         }
     });
 
-    // 6. When the user closes or leaves the page, unsubscribe and close the socket
     window.addEventListener('beforeunload', function () {
-        socket.send(JSON.stringify({'type':'unsubscribe','symbol': stockSymbol}));
+        socket.send(JSON.stringify({ 'type': 'unsubscribe', 'symbol': stockSymbol }));
         socket.close();
     });
 </script>

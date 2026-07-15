@@ -16,6 +16,7 @@ public class StocksService : IStocksService
     {
         //Inserts a new buy order into the database table called 'BuyOrders'.
         throw new NotImplementedException();
+
     }
 
     public Task<SellOrderResponse> CreateSellOrderAsync(SellOrderRequest? sellOrderRequest)
@@ -24,15 +25,17 @@ public class StocksService : IStocksService
         throw new NotImplementedException();
     }
 
-    public Task<List<BuyOrderResponse>> GetBuyOrdersAsync()
+    public async Task<List<BuyOrderResponse>> GetBuyOrdersAsync()
     {
         //Returns the existing list of buy orders retrieved from database table called 'BuyOrders'.
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
+        return new();
     }
 
-    public Task<List<SellOrderResponse>> GetSellOrdersAsync()
+    public async Task<List<SellOrderResponse>> GetSellOrdersAsync()
     {
         //Returns the existing list of sell orders retrieved from database table called 'SellOrders'.
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
+        return new List<SellOrderResponse>();
     }
 }

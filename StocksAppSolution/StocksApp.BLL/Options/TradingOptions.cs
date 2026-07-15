@@ -4,4 +4,6 @@ public class TradingOptions
 {
     public string? DefaultStockSymbol { get; set; }
     public string? SecretToken { get; set; }
+
+    public uint? DefaultOrderQuantity { get; set; }
 }

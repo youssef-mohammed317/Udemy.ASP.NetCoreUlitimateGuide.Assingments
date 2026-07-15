@@ -4,22 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Price View</title>
-
-    <!-- Linking the provided external CSS file exactly by its name -->
     <link rel="stylesheet" href="~/StyleSheet.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
 
-    <!-- Main wrapper container to hold the page elements -->
     <div class="container">
 
-        <!-- Application title section -->
-        <div class="app-title">
-            <!-- Using an emoji as a simple placeholder for the stock icon -->
-            <span style="font-size: 0.8em;">&#128181;</span> Stocks
+        <div id="top-bar-div" class="flex">
+
+            <div class="app-title">
+                <i class="bi bi-graph-up-arrow"></i> Stocks
+            </div>
+
+            <div id="search-box-div" class="flex-1">
+                <input type="text" class="search-text" placeholder="Search Stocks" />
+                <a href="/Settings" class="text-grey" title="Settings" style="margin-right:10px;">
+                    <i class="bi bi-gear-fill"></i>
+                </a>
+                <a href="/Account/Login" class="button button-blue-back login-button">Login</a>
+            </div>
+
         </div>
 
-       @RenderBody()
+        <nav class="navbar">
+            <ul>
+                <li><a href="/Trade/Index" class="nav-active">Trade</a></li>
+                <li><a href="/Trade/Orders">Orders</a></li>
+            </ul>
+        </nav>
+
+        <div class="page-content">
+            @RenderBody()
+        </div>
 
     </div>
 

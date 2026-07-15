@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using StocksApp.BLL.DTOs;
 using StocksApp.BLL.Services.Contracts;
 using StocksApp.UI.Options;
 using StocksApp.UI.ViewModels;
@@ -12,6 +14,9 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
     private readonly TradingOptions _tradingOptions = tradingOptions.Value;
     private readonly IFinnhubService _finnhubService = finnhubService;
     private readonly IStocksService _stocksService = stocksService;
+
+    private readonly string _orderBuyRequestKey = "OrderBuyRequest";
+    private readonly string _orderSellRequestKey = "OrderSellRequest";
 
     [HttpGet]
     public async Task<IActionResult> Index()
@@ -39,8 +44,61 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
         {
             viewModel.Price = Convert.ToDouble(stockPriceQuote["c"].ToString());
         }
-        //viewModel.Quantity = 0;
+        viewModel.Quantity = _tradingOptions.DefaultOrderQuantity;
+
 
         return View(viewModel);
+    }
+    [HttpPost]
+    public async Task<IActionResult> BuyOrder([FromForm] BuyOrderRequest orderRequest)
+    {
+        orderRequest.DateAndTimeOfOrder = DateTime.Now;
+
+        if (ModelState.IsValid)
+        {
+            var response = await _stocksService.CreateBuyOrderAsync(orderRequest);
+            return RedirectToAction(nameof(TradeController.Orders));
+        }
+
+        StockTradeViewModel viewModel = new StockTradeViewModel
+        {
+            StockSymbol = orderRequest.StockSymbol,
+            StockName = orderRequest.StockName,
+            Price = orderRequest.Price,
+            Quantity = orderRequest.Quantity,
+        };
+
+        return View(nameof(TradeController.Index), viewModel);
+    }
+    [HttpPost]
+    public async Task<IActionResult> SellOrder([FromForm] SellOrderRequest orderRequest)
+    {
+        orderRequest.DateAndTimeOfOrder = DateTime.Now;
+
+        if (ModelState.IsValid)
+        {
+            var response = await _stocksService.CreateSellOrderAsync(orderRequest);
+            return RedirectToAction(nameof(TradeController.Orders));
+        }
+
+        StockTradeViewModel viewModel = new StockTradeViewModel
+        {
+            StockSymbol = orderRequest.StockSymbol,
+            StockName = orderRequest.StockName,
+            Price = orderRequest.Price,
+            Quantity = orderRequest.Quantity,
+        };
+
+        return View(nameof(TradeController.Index), viewModel);
+    }
+    [HttpGet]
+    public async Task<IActionResult> Orders()
+    {
+        var orderViewModel = new OrdersViewModel();
+
+        orderViewModel.SellOrders = await _stocksService.GetSellOrdersAsync();
+        orderViewModel.BuyOrders = await _stocksService.GetBuyOrdersAsync();
+
+        return View(orderViewModel);
     }
 }
