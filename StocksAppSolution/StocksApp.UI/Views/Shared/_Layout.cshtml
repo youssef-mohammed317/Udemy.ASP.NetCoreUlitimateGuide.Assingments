@@ -23,15 +23,24 @@
                 <a href="/Settings" class="text-grey" title="Settings" style="margin-right:10px;">
                     <i class="bi bi-gear-fill"></i>
                 </a>
-                <a href="/Account/Login" class="button button-blue-back login-button">Login</a>
+                <a asp-controller="Auth" asp-action="Login" class="button button-blue-back login-button">Login</a>
             </div>
 
         </div>
+        @{
+            var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+        }
 
         <nav class="navbar">
             <ul>
-                <li><a href="/Trade/Index" class="nav-active">Trade</a></li>
-                <li><a href="/Trade/Orders">Orders</a></li>
+                <li>
+                    <a asp-controller="Trade" asp-action="Index"
+                       class="@(currentAction == "Index" ? "nav-active" : "")">Trade</a>
+                </li>
+                <li>
+                    <a asp-controller="Trade" asp-action="Orders"
+                       class="@(currentAction == "Orders" ? "nav-active" : "")">Orders</a>
+                </li>
             </ul>
         </nav>
 
@@ -40,6 +49,6 @@
         </div>
 
     </div>
-
+    @await Html.PartialAsync("_ValidationScriptsPartial")
 </body>
 </html>

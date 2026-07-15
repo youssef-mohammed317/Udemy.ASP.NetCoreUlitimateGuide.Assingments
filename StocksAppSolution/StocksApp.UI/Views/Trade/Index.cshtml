@@ -32,9 +32,8 @@
                 <label class="form-label" for="quantity">Quantity:</label>
             </div>
             <div>
-                <input type="number" class="form-input" id="quantity"
-                       form="sellOrderForm buyOrderForm"
-                       value="@Model.Quantity" />
+                <input asp-for="Quantity" type="number" class="form-input" id="quantity" />
+                <span asp-validation-for="Quantity"></span>
             </div>
         </div>
 
@@ -42,10 +41,10 @@
 
             <!-- Sell Form -->
             <form id="sellOrderForm" method="post" asp-controller="Trade" asp-action="SellOrder" style="display:inline;">
-                <input type="hidden" name="StockSymbol" value="@Model.StockSymbol" />
-                <input type="hidden" name="StockName" value="@Model.StockName" />
-                <input type="hidden" name="Price" value="@Model.Price" />
-                <input type="hidden" name="Quantity" id="sellQuantity" value="@Model.Quantity" />
+                <input type="hidden" asp-for="StockSymbol" />
+                <input type="hidden" asp-for="StockName" />
+                <input type="hidden" asp-for="Price" />
+                <input type="hidden" asp-for="Quantity" id="sellQuantity" />
                 <button type="submit" class="trading-button button button-red-back">
                     <i class="bi bi-arrow-down-circle"></i> Sell
                 </button>
@@ -53,10 +52,10 @@
 
             <!-- Buy Form -->
             <form id="buyOrderForm" method="post" asp-controller="Trade" asp-action="BuyOrder" style="display:inline;">
-                <input type="hidden" name="StockSymbol" value="@Model.StockSymbol" />
-                <input type="hidden" name="StockName" value="@Model.StockName" />
-                <input type="hidden" name="Price" value="@Model.Price" />
-                <input type="hidden" name="Quantity" id="buyQuantity" value="@Model.Quantity" />
+                <input type="hidden" asp-for="StockSymbol" />
+                <input type="hidden" asp-for="StockName" />
+                <input type="hidden" asp-for="Price" />
+                <input type="hidden" asp-for="Quantity" id="buyQuantity" />
                 <button type="submit" class="trading-button button button-green-back">
                     <i class="bi bi-arrow-up-circle"></i> Buy
                 </button>
