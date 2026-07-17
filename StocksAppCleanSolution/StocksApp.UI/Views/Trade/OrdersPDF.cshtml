@@ -1,0 +1,82 @@
+﻿@model OrdersViewModel
+
+@{
+    Layout = null;
+
+    var combinedOrders = Model.BuyOrders
+        .Select(b => new
+        {
+            b.StockSymbol,
+            b.StockName,
+            b.DateAndTimeOfOrder,
+            b.Quantity,
+            b.Price,
+            b.TradeAmount,
+            OrderType = "BuyOrder"
+        })
+        .Concat(Model.SellOrders.Select(s => new
+        {
+            s.StockSymbol,
+            s.StockName,
+            s.DateAndTimeOfOrder,
+            s.Quantity,
+            s.Price,
+            s.TradeAmount,
+            OrderType = "SellOrder"
+        }))
+        .OrderByDescending(o => o.DateAndTimeOfOrder)
+        .ToList();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orders</title>
+    <link rel="stylesheet" href='@($"{Context.Request.Scheme}://{Context.Request.Host}/StyleSheet.css")' />
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="p">Orders</h1>
+
+        <table class="table w-100" >
+            <thead>
+                <tr>
+                    <th>Date and Time</th>
+                    <th>Stock</th>
+                    <th>Order Type</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Trade Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (combinedOrders.Any())
+                {
+                    @foreach (var order in combinedOrders)
+                    {
+                        <tr>
+                            <td>@order.DateAndTimeOfOrder?.ToString("dd MMMM yyyy hh:mm:ss tt")</td>
+                            <td>@order.StockName (@order.StockSymbol)</td>
+                            <td>@order.OrderType</td>
+                            <td>@order.Quantity</td>
+                            <td>$ @order.Price?.ToString("N2")</td>
+                            <td>@order.TradeAmount?.ToString("N2")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" class="text-center p">No orders found</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>

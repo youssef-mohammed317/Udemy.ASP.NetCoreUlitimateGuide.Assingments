@@ -1,0 +1,13 @@
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\StocksApp.Core.csproj.AssemblyReference.cache
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\StocksApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\StocksApp.Core.AssemblyInfoInputs.cache
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\StocksApp.Core.AssemblyInfo.cs
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\StocksApp.Core.csproj.CoreCompileInputs.cache
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\StocksApp.Core.sourcelink.json
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\bin\Debug\net9.0\StocksApp.Core.deps.json
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\bin\Debug\net9.0\StocksApp.Core.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\bin\Debug\net9.0\StocksApp.Core.pdb
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\StocksApp.Core.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\refint\StocksApp.Core.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\StocksApp.Core.pdb
+F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.Core\obj\Debug\net9.0\ref\StocksApp.Core.dll

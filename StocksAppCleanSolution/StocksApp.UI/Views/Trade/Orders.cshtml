@@ -1,0 +1,80 @@
+﻿@model OrdersViewModel
+
+<!-- Breadcrumb -->
+<div class="mb">
+    <a asp-controller="Trade" asp-action="Index" class="text-grey" style="text-decoration:none;">Stocks</a>
+    <i class="bi bi-chevron-right text-grey" style="font-size:0.7em;"></i>
+    <span>Orders</span>
+</div>
+
+<div>
+    <a asp-controller="Trade" asp-action="OrdersPDF">Download as PDF</a>
+</div>
+
+<div class="flex orders-list">
+
+    <!-- Buy Orders -->
+    <div class="flex-1 box" id="buy-orders-list">
+        <div class="text-grey mb">Buy Orders</div>
+
+        @if (Model.BuyOrders != null && Model.BuyOrders.Any())
+        {
+            <ul class="list list-container">
+                @foreach (var order in Model.BuyOrders)
+                {
+                    <li class="border-bottom pb mb">
+                        <div>
+                            <strong>@order.StockName (@order.StockSymbol)</strong>
+                        </div>
+                        <div class="text-grey">
+                            @order.Quantity shares at $@order.Price?.ToString("N2")
+                        </div>
+                        <div>
+                            <strong>Trade Amount:</strong> $@order.TradeAmount?.ToString("N2")
+                        </div>
+                        <div class="text-grey">
+                            @order.DateAndTimeOfOrder?.ToString("dd MMMM yyyy hh:mm tt")
+                        </div>
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <div class="text-grey p">No buy orders yet</div>
+        }
+    </div>
+
+    <!-- Sell Orders -->
+    <div class="flex-1 box" id="sell-orders-list">
+        <div class="text-grey mb">Sell Orders</div>
+
+        @if (Model.SellOrders != null && Model.SellOrders.Any())
+        {
+            <ul class="list list-container">
+                @foreach (var order in Model.SellOrders)
+                {
+                    <li class="border-bottom pb mb">
+                        <div>
+                            <strong>@order.StockName (@order.StockSymbol)</strong>
+                        </div>
+                        <div class="text-grey">
+                            @order.Quantity shares at $@order.Price?.ToString("N2")
+                        </div>
+                        <div>
+                            <strong>Trade Amount:</strong> $@order.TradeAmount?.ToString("N2")
+                        </div>
+                        <div class="text-grey">
+                            @order.DateAndTimeOfOrder?.ToString("dd MMMM yyyy hh:mm tt")
+                        </div>
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <div class="text-grey p">No sell orders yet</div>
+        }
+    </div>
+
+</div>

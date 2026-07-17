@@ -1,0 +1,81 @@
+2026-07-18 01:32:40.691 +03:00 [INF] Now listening on: http://localhost:5251
+2026-07-18 01:32:40.878 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 01:32:40.879 +03:00 [INF] Hosting environment: Development
+2026-07-18 01:32:40.880 +03:00 [INF] Content root path: F:\Udemy\Learning\ASP.NetCore\Assignments\StocksAppCleanSolution\StocksApp.UI
+2026-07-18 01:32:43.334 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:32:43.344 +03:00 [INF] HTTP GET / responded 404 in 2.1541 ms
+2026-07-18 01:32:43.357 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:03.369 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:03.770 +03:00 [INF] Start TradeController - Index
+2026-07-18 01:33:03.796 +03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?*
+2026-07-18 01:33:03.803 +03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?*
+2026-07-18 01:33:04.582 +03:00 [INF] Received HTTP response headers after 773.5465ms - 200
+2026-07-18 01:33:04.586 +03:00 [INF] End processing HTTP request after 798.2794ms - 200
+2026-07-18 01:33:04.599 +03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?*
+2026-07-18 01:33:04.600 +03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?*
+2026-07-18 01:33:04.764 +03:00 [INF] Received HTTP response headers after 161.7095ms - 200
+2026-07-18 01:33:04.766 +03:00 [INF] End processing HTTP request after 168.2718ms - 200
+2026-07-18 01:33:04.773 +03:00 [INF] End TradeController - Index : ViewModel : {"StockSymbol":"MSFT","StockName":"Microsoft Corp","Price":393.82,"Quantity":100,"$type":"StockTradeViewModel"}
+2026-07-18 01:33:04.783 +03:00 [INF] Start execution of index action MSFT in completed ms
+2026-07-18 01:33:04.984 +03:00 [INF] HTTP GET /trade/index responded 200 in 1613.2766 ms
+2026-07-18 01:33:04.988 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:05.025 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:05.046 +03:00 [INF] HTTP GET /StyleSheet.css responded 200 in 16.7575 ms
+2026-07-18 01:33:05.050 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:05.766 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:05.790 +03:00 [INF] HTTP GET /favicon.ico responded 200 in 22.1162 ms
+2026-07-18 01:33:05.794 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:07.983 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:15.727 +03:00 [INF] HTTP GET /Trade/Orders responded 200 in 7742.0365 ms
+2026-07-18 01:33:16.122 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:22.214 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:22.221 +03:00 [INF] Start TradeController - Index
+2026-07-18 01:33:22.223 +03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?*
+2026-07-18 01:33:22.224 +03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?*
+2026-07-18 01:33:22.377 +03:00 [INF] Received HTTP response headers after 151.1397ms - 200
+2026-07-18 01:33:22.378 +03:00 [INF] End processing HTTP request after 155.1767ms - 200
+2026-07-18 01:33:22.380 +03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?*
+2026-07-18 01:33:22.381 +03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?*
+2026-07-18 01:33:22.536 +03:00 [INF] Received HTTP response headers after 153.67ms - 200
+2026-07-18 01:33:22.538 +03:00 [INF] End processing HTTP request after 157.7982ms - 200
+2026-07-18 01:33:22.540 +03:00 [INF] End TradeController - Index : ViewModel : {"StockSymbol":"MSFT","StockName":"Microsoft Corp","Price":393.82,"Quantity":100,"$type":"StockTradeViewModel"}
+2026-07-18 01:33:22.545 +03:00 [INF] Start execution of index action MSFT in completed ms
+2026-07-18 01:33:22.552 +03:00 [INF] HTTP GET /Trade/Index responded 200 in 337.6012 ms
+2026-07-18 01:33:22.555 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:26.194 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:26.232 +03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?*
+2026-07-18 01:33:26.234 +03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?*
+2026-07-18 01:33:27.155 +03:00 [INF] Received HTTP response headers after 918.6351ms - 200
+2026-07-18 01:33:27.156 +03:00 [INF] End processing HTTP request after 923.6293ms - 200
+2026-07-18 01:33:30.158 +03:00 [INF] HTTP GET /Stocks/Explore responded 200 in 3962.7213 ms
+2026-07-18 01:33:30.161 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:36.917 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:36.922 +03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/symbol?*
+2026-07-18 01:33:36.923 +03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/symbol?*
+2026-07-18 01:33:37.622 +03:00 [INF] Received HTTP response headers after 698.4784ms - 200
+2026-07-18 01:33:37.624 +03:00 [INF] End processing HTTP request after 702.0952ms - 200
+2026-07-18 01:33:40.333 +03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/stock/profile2?*
+2026-07-18 01:33:40.334 +03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/stock/profile2?*
+2026-07-18 01:33:40.488 +03:00 [INF] Received HTTP response headers after 151.9999ms - 200
+2026-07-18 01:33:40.492 +03:00 [INF] End processing HTTP request after 158.7904ms - 200
+2026-07-18 01:33:40.496 +03:00 [INF] Start processing HTTP request GET https://finnhub.io/api/v1/quote?*
+2026-07-18 01:33:40.499 +03:00 [INF] Sending HTTP request GET https://finnhub.io/api/v1/quote?*
+2026-07-18 01:33:40.749 +03:00 [INF] Received HTTP response headers after 245.5081ms - 200
+2026-07-18 01:33:40.751 +03:00 [INF] End processing HTTP request after 255.5829ms - 200
+2026-07-18 01:33:40.768 +03:00 [INF] HTTP GET /Stocks/Explore/AVGO responded 200 in 3849.0023 ms
+2026-07-18 01:33:40.771 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:45.750 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:45.787 +03:00 [INF] HTTP GET /Trade/Orders responded 200 in 34.9642 ms
+2026-07-18 01:33:45.790 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:49.080 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:49.250 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:49.251 +03:00 [INF] HTTP GET /StyleSheet.css responded 200 in 0.5283 ms
+2026-07-18 01:33:49.253 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:50.005 +03:00 [INF] HTTP GET /Trade/OrdersPDF responded 200 in 923.6555 ms
+2026-07-18 01:33:50.008 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:51.357 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:51.471 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:33:51.473 +03:00 [INF] HTTP GET /StyleSheet.css responded 200 in 0.5922 ms
+2026-07-18 01:33:51.477 +03:00 [INF] End of the middlewares pipeline successfully
+2026-07-18 01:33:52.072 +03:00 [INF] HTTP GET /Trade/OrdersPDF responded 200 in 712.9767 ms
+2026-07-18 01:33:52.075 +03:00 [INF] End of the middlewares pipeline successfully

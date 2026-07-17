@@ -1,0 +1,38 @@
+﻿@model List<StockViewModel>
+
+<div class="mb">
+    <a asp-controller="Stocks" asp-action="Explore" class="text-grey" style="text-decoration:none;">Stocks</a>
+    <i class="bi bi-chevron-right text-grey" style="font-size:0.7em;"></i>
+    <span>Explore</span>
+</div>
+
+<div class="flex">
+
+    <div class="flex-2 box">
+        <div class="flex" style="justify-content:space-between; align-items:center;">
+            <div class="text-grey">Stocks</div>
+            <a asp-controller="Stocks" asp-action="StockList" class="link-hover">Show all stocks</a>
+        </div>
+
+        <ul class="list list-container">
+            @foreach (var stock in Model)
+            {
+                <li>
+                    <a asp-controller="Stocks" asp-action="Explore" asp-route-stock="@stock.StockSymbol"
+                       style="text-decoration:none; color:inherit; display:block;">
+                        <div style="font-weight:bold;">@stock.StockName!.ToUpper()</div>
+                        <div class="text-grey">(@stock.StockSymbol)</div>
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="flex-3">
+        @if (ViewBag.StockSymbol != null)
+        {
+            @await Component.InvokeAsync("SelectedStock", new { stockSymbol = ViewBag.StockSymbol as string })
+         }
+    </div>
+
+</div>

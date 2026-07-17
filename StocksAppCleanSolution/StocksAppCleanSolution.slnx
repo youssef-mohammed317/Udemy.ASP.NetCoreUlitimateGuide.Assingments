@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="StocksApp.Core/StocksApp.Core.csproj" />
+    <Project Path="StocksApp.Infrastructure/StocksApp.Infrastructure.csproj" />
+    <Project Path="StocksApp.UI/StocksApp.UI.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="StocksApp.Core.Tests/StocksApp.Core.Tests.csproj" />
+    <Project Path="StocksApp.Integration.Tests/StocksApp.Integration.Tests.csproj" />
+    <Project Path="StocksApp.UI.Tests/StocksApp.UI.Tests.csproj" />
+  </Folder>
+</Solution>

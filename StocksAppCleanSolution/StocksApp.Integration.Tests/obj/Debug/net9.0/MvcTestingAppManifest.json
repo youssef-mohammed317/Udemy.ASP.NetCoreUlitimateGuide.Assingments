@@ -1,0 +1,5 @@
+{
+  "StocksApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppCleanSolution\\StocksApp.Core",
+  "StocksApp.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppCleanSolution\\StocksApp.Infrastructure",
+  "StocksApp.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppCleanSolution\\StocksApp.UI"
+}

@@ -1,0 +1,6 @@
+2026-07-18 01:44:35.472 +03:00 [INF] Start of the middlewares pipeline
+2026-07-18 01:44:35.680 +03:00 [INF] Start TradeController - Index
+2026-07-18 01:44:35.699 +03:00 [INF] End TradeController - Index : ViewModel : {"StockSymbol":"AAPL","StockName":"Apple","Price":150.5,"Quantity":100,"$type":"StockTradeViewModel"}
+2026-07-18 01:44:35.703 +03:00 [INF] Start execution of index action MSFT in completed ms
+2026-07-18 01:44:35.772 +03:00 [INF] HTTP GET /Trade/Index responded 200 in 282.6439 ms
+2026-07-18 01:44:35.773 +03:00 [INF] End of the middlewares pipeline successfully

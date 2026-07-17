@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\StocksAppSolution\StocksApp.DAL\Entities\BuyOrder.cs" Link="Domain\Entities\BuyOrder.cs" />
+    <Compile Include="..\..\StocksAppSolution\StocksApp.DAL\Entities\SellOrder.cs" Link="Domain\Entities\SellOrder.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
