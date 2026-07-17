@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC0859B4-4767-4113-BFAE-FA0E89161C8B}|StocksApp.IntegrationTests\\StocksApp.IntegrationTests.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.integrationtests\\contollers\\trade\\indexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC0859B4-4767-4113-BFAE-FA0E89161C8B}|StocksApp.IntegrationTests\\StocksApp.IntegrationTests.csproj|solutionrelative:stocksapp.integrationtests\\contollers\\trade\\indexmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.ui\\controllers\\tradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|solutionrelative:stocksapp.ui\\controllers\\tradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72DB59EC-7768-4ED7-B3E3-DD2E89ECC8DC}|StocksApp.UI.Tests\\StocksApp.UI.Tests.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.ui.tests\\controllers\\stocks\\exploreactionmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72DB59EC-7768-4ED7-B3E3-DD2E89ECC8DC}|StocksApp.UI.Tests\\StocksApp.UI.Tests.csproj|solutionrelative:stocksapp.ui.tests\\controllers\\stocks\\exploreactionmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|solutionrelative:stocksapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72DB59EC-7768-4ED7-B3E3-DD2E89ECC8DC}|StocksApp.UI.Tests\\StocksApp.UI.Tests.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.ui.tests\\stocksapp.ui.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{72DB59EC-7768-4ED7-B3E3-DD2E89ECC8DC}|StocksApp.UI.Tests\\StocksApp.UI.Tests.csproj|solutionrelative:stocksapp.ui.tests\\stocksapp.ui.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|solutionrelative:stocksapp.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1264,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,54 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StocksApp.UI.Tests",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI.Tests\\StocksApp.UI.Tests.csproj",
-              "RelativeDocumentMoniker": "StocksApp.UI.Tests\\StocksApp.UI.Tests.csproj",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI.Tests\\StocksApp.UI.Tests.csproj",
-              "RelativeToolTip": "StocksApp.UI.Tests\\StocksApp.UI.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-17T06:40:35.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExploreActionMethod.cs",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI.Tests\\Controllers\\Stocks\\ExploreActionMethod.cs",
-              "RelativeDocumentMoniker": "StocksApp.UI.Tests\\Controllers\\Stocks\\ExploreActionMethod.cs",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI.Tests\\Controllers\\Stocks\\ExploreActionMethod.cs",
-              "RelativeToolTip": "StocksApp.UI.Tests\\Controllers\\Stocks\\ExploreActionMethod.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T06:33:29.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TradeController.cs",
               "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Controllers\\TradeController.cs",
               "RelativeDocumentMoniker": "StocksApp.UI\\Controllers\\TradeController.cs",
               "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Controllers\\TradeController.cs",
               "RelativeToolTip": "StocksApp.UI\\Controllers\\TradeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T06:32:38.724Z",
+              "WhenOpened": "2026-07-17T07:01:09.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IndexMethod.cs",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.IntegrationTests\\Contollers\\Trade\\IndexMethod.cs",
-              "RelativeDocumentMoniker": "StocksApp.IntegrationTests\\Contollers\\Trade\\IndexMethod.cs",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.IntegrationTests\\Contollers\\Trade\\IndexMethod.cs",
-              "RelativeToolTip": "StocksApp.IntegrationTests\\Contollers\\Trade\\IndexMethod.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA8wDkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "StocksApp.UI\\appsettings.json",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\appsettings.json",
+              "RelativeToolTip": "StocksApp.UI\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-17T06:54:35.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Program.cs",
+              "RelativeDocumentMoniker": "StocksApp.UI\\Program.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Program.cs",
+              "RelativeToolTip": "StocksApp.UI\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T06:32:02.932Z",
+              "WhenOpened": "2026-07-17T06:54:31.733Z",
               "EditorCaption": ""
             }
           ]

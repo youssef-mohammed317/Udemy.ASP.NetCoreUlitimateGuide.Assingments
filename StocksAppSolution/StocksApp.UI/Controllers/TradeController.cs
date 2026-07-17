@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Rotativa.AspNetCore;
+using SerilogTimings;
 using StocksApp.BLL.DTOs;
 using StocksApp.BLL.Services.Contracts;
 using StocksApp.UI.CustomOptions;
@@ -10,41 +11,48 @@ using StocksApp.UI.ViewModels;
 namespace StocksApp.UI.Controllers;
 
 [Route("[controller]/[action]")]
-public class TradeController(IFinnhubService finnhubService, IOptions<TradingOptions> tradingOptions, IStocksService stocksService) : Controller
+public class TradeController(IFinnhubService finnhubService, IOptions<TradingOptions> tradingOptions, IStocksService stocksService, ILogger<TradeController> logger) : Controller
 {
     private readonly TradingOptions _tradingOptions = tradingOptions.Value;
     private readonly IFinnhubService _finnhubService = finnhubService;
     private readonly IStocksService _stocksService = stocksService;
+    private readonly ILogger<TradeController> _logger = logger;
 
     [HttpGet]
     public async Task<IActionResult> Index()
     {
         StockTradeViewModel viewModel = new StockTradeViewModel();
-
-        var companyProfile = await _finnhubService.GetCompanyProfileAsync(_tradingOptions.DefaultStockSymbol!);
-
-        var stockPriceQuote = await _finnhubService.GetStockPriceQuoteAsync(_tradingOptions.DefaultStockSymbol!);
-
-        if (stockPriceQuote == null || companyProfile == null)
-            return View(viewModel);
-
-
-        if (companyProfile.ContainsKey("name"))
+        using (Operation.Time("Start execution of index action", _tradingOptions.DefaultStockSymbol!.ToString()))
         {
-            viewModel.StockName = companyProfile["name"].ToString();
-        }
 
-        if (companyProfile.ContainsKey("ticker"))
-        {
-            viewModel.StockSymbol = companyProfile["ticker"].ToString();
-        }
-        if (stockPriceQuote.ContainsKey("c"))
-        {
-            viewModel.Price = Convert.ToDouble(stockPriceQuote["c"].ToString());
-        }
-        viewModel.Quantity = _tradingOptions.DefaultOrderQuantity;
+            _logger.LogInformation("Start {@ContollerName} - {@MethodName}", nameof(TradeController), nameof(Index));
 
 
+            var companyProfile = await _finnhubService.GetCompanyProfileAsync(_tradingOptions.DefaultStockSymbol!);
+
+            var stockPriceQuote = await _finnhubService.GetStockPriceQuoteAsync(_tradingOptions.DefaultStockSymbol!);
+
+            if (stockPriceQuote == null || companyProfile == null)
+                return View(viewModel);
+
+
+            if (companyProfile.ContainsKey("name"))
+            {
+                viewModel.StockName = companyProfile["name"].ToString();
+            }
+
+            if (companyProfile.ContainsKey("ticker"))
+            {
+                viewModel.StockSymbol = companyProfile["ticker"].ToString();
+            }
+            if (stockPriceQuote.ContainsKey("c"))
+            {
+                viewModel.Price = Convert.ToDouble(stockPriceQuote["c"].ToString());
+            }
+            viewModel.Quantity = _tradingOptions.DefaultOrderQuantity;
+
+            _logger.LogInformation("End {@ContollerName} - {@MethodName} : ViewModel : {@viewModel}", nameof(TradeController), nameof(Index), viewModel);
+        }
         return View(viewModel);
     }
     [HttpPost]

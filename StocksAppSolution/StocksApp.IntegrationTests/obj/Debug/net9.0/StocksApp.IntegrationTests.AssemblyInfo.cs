@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StocksApp.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+752712be8945efd0a42039f0cfef55d9a9ffddfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b146db2b52fe8e75758d8ccc654cc538f102cff1")]
 [assembly: System.Reflection.AssemblyProductAttribute("StocksApp.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StocksApp.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,28 +2,56 @@ using StocksApp.BLL;
 using StocksApp.UI.CustomOptions;
 using StocksApp.DAL;
 using Rotativa.AspNetCore;
-
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddControllersWithViews();
-
-builder.Services.AddBusinessLogicLayer();
-
-builder.Services.AddDataAccessLayer(builder.Configuration);
-
-builder.Services.Configure<TradingOptions>(builder.Configuration.GetSection("TradingOptions"));
-
-builder.Services.AddHttpClient();
+using Serilog;
+using SerilogTimings;
 
 
-var app = builder.Build();
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .CreateBootstrapLogger();
+try
+{
 
-RotativaConfiguration.Setup(app.Environment.WebRootPath, wkhtmltopdfRelativePath: "Rotativa");
+    Log.Information("Starting up the application...");
+    var builder = WebApplication.CreateBuilder(args);
 
-app.UseStaticFiles();
+    builder.Host.UseSerilog((context, services, configuration) => configuration
+            .ReadFrom.Configuration(context.Configuration)
+            .ReadFrom.Services(services)
+            .Enrich.FromLogContext());
 
-app.MapControllers();
+    builder.Services.AddControllersWithViews();
 
-app.Run();
+    builder.Services.AddBusinessLogicLayer();
+
+    builder.Services.AddDataAccessLayer(builder.Configuration);
+
+    builder.Services.Configure<TradingOptions>(builder.Configuration.GetSection("TradingOptions"));
+
+    builder.Services.AddHttpClient();
+
+
+    var app = builder.Build();
+
+
+    app.UseSerilogRequestLogging();
+
+    RotativaConfiguration.Setup(app.Environment.WebRootPath, wkhtmltopdfRelativePath: "Rotativa");
+
+    app.UseStaticFiles();
+
+    app.MapControllers();
+
+    app.Run();
+
+}
+catch (Exception ex)
+{
+    Log.Fatal(ex, "Application start-up failed");
+}
+finally
+{
+    Log.CloseAndFlush();
+}
 
 public partial class Program { }
