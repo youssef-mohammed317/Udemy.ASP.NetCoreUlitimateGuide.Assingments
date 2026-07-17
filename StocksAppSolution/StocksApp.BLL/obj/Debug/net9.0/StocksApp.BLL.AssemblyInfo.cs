@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StocksApp.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c597bfdfa25cf7b5867e12399285b50a90d0a133")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc5b28e0d797c4e599b01cf0e1149968bcd130e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("StocksApp.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StocksApp.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

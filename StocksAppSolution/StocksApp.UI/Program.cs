@@ -4,6 +4,7 @@ using StocksApp.DAL;
 using Rotativa.AspNetCore;
 using Serilog;
 using SerilogTimings;
+using StocksApp.UI.Middlewares;
 
 
 Log.Logger = new LoggerConfiguration()
@@ -33,6 +34,8 @@ try
 
     var app = builder.Build();
 
+
+    app.UseExceptionHandlingMiddleware();
 
     app.UseSerilogRequestLogging();
 
