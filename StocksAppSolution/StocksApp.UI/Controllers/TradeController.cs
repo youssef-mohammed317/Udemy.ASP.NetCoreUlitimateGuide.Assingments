@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Options;
 using Rotativa.AspNetCore;
 using SerilogTimings;
 using StocksApp.BLL.DTOs;
 using StocksApp.BLL.Services.Contracts;
 using StocksApp.UI.CustomOptions;
+using StocksApp.UI.Filters;
 using StocksApp.UI.ViewModels;
 
 namespace StocksApp.UI.Controllers;
@@ -56,6 +58,7 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
         return View(viewModel);
     }
     [HttpPost]
+    [TypeFilter(typeof(ModelStateValidationFilterAttribute))]
     public async Task<IActionResult> BuyOrder([FromForm] BuyOrderRequest orderRequest)
     {
         orderRequest.DateAndTimeOfOrder = DateTime.Now;
@@ -81,6 +84,7 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
         return View(nameof(TradeController.Index), viewModel);
     }
     [HttpPost]
+    [TypeFilter(typeof(ModelStateValidationFilterAttribute))]
     public async Task<IActionResult> SellOrder([FromForm] SellOrderRequest orderRequest)
     {
         orderRequest.DateAndTimeOfOrder = DateTime.Now;

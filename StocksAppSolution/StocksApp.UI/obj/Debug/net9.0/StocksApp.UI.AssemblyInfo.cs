@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StocksApp.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b146db2b52fe8e75758d8ccc654cc538f102cff1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c597bfdfa25cf7b5867e12399285b50a90d0a133")]
 [assembly: System.Reflection.AssemblyProductAttribute("StocksApp.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StocksApp.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
