@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StocksApp.BLL.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40734c082e40a0c9923c4f70c7f30e78b914a099")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+055e188aab299686b5d943da7358b8783a0a1cea")]
 [assembly: System.Reflection.AssemblyProductAttribute("StocksApp.BLL.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StocksApp.BLL.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

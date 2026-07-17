@@ -24,26 +24,28 @@ namespace StocksApp.BLL.CustomValidationAttributes
 
             var date = Convert.ToDateTime(value);
 
+
+
             if (StartDate.HasValue && !EndDate.HasValue)
             {
                 if (date >= StartDate.Value)
                     return ValidationResult.Success;
 
-                return new ValidationResult($"Should not be older than {StartDate.Value.ToString("MMM dd, yyyy")}");
+                return new ValidationResult($"Should not be older than {StartDate.Value.ToString("MMM dd, yyyy")}", [validationContext.DisplayName]);
             }
             else if (!StartDate.HasValue && EndDate.HasValue)
             {
                 if (date <= EndDate.Value)
                     return ValidationResult.Success;
 
-                return new ValidationResult($"Date should be less than or equal to {EndDate.Value.ToString("MMM dd, yyyy")}");
+                return new ValidationResult($"Date should be less than or equal to {EndDate.Value.ToString("MMM dd, yyyy")}", [validationContext.DisplayName]);
             }
             else if (StartDate.HasValue && EndDate.HasValue)
             {
                 if (date >= StartDate.Value && date <= EndDate.Value)
                     return ValidationResult.Success;
 
-                return new ValidationResult($"Date should be between {StartDate.Value.ToString("MMM dd, yyyy")} and {EndDate.Value.ToString("MMM dd, yyyy")}");
+                return new ValidationResult($"Date should be between {StartDate.Value.ToString("MMM dd, yyyy")} and {EndDate.Value.ToString("MMM dd, yyyy")}", [validationContext.DisplayName]);
             }
 
             return ValidationResult.Success;

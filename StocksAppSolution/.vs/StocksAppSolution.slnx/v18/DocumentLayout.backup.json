@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.ui\\views\\stocks\\explore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|solutionrelative:stocksapp.ui\\views\\stocks\\explore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1F506AB9-D359-4FD1-A621-2C26326BC22F}|StocksApp.BLL.Tests\\StocksApp.BLL.Tests.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.bll.tests\\services\\implementations\\stocksservicetests\\getsellordersmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F506AB9-D359-4FD1-A621-2C26326BC22F}|StocksApp.BLL.Tests\\StocksApp.BLL.Tests.csproj|solutionrelative:stocksapp.bll.tests\\services\\implementations\\stocksservicetests\\getsellordersmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.ui\\viewcomponents\\selectedstockviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|solutionrelative:stocksapp.ui\\viewcomponents\\selectedstockviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F506AB9-D359-4FD1-A621-2C26326BC22F}|StocksApp.BLL.Tests\\StocksApp.BLL.Tests.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.bll.tests\\services\\implementations\\stocksservicetests\\getbuyordersmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F506AB9-D359-4FD1-A621-2C26326BC22F}|StocksApp.BLL.Tests\\StocksApp.BLL.Tests.csproj|solutionrelative:stocksapp.bll.tests\\services\\implementations\\stocksservicetests\\getbuyordersmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{385F0296-884F-7ECB-170E-FCED9240E399}|StocksApp.BLL\\StocksApp.BLL.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.bll\\services\\implementations\\finnhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{385F0296-884F-7ECB-170E-FCED9240E399}|StocksApp.BLL\\StocksApp.BLL.csproj|solutionrelative:stocksapp.bll\\services\\implementations\\finnhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.ui\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|solutionrelative:stocksapp.ui\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A2E7B69-4A08-FE20-96AB-0AF8C6E24B1E}|StocksApp.UI\\StocksApp.UI.csproj|solutionrelative:stocksapp.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9AEBBEE-A2C9-48A3-A1D8-E3F24E63B156}|StocksApp.DAL\\StocksApp.DAL.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.dal\\repositories\\contracts\\ifinnhubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9AEBBEE-A2C9-48A3-A1D8-E3F24E63B156}|StocksApp.DAL\\StocksApp.DAL.csproj|solutionrelative:stocksapp.dal\\repositories\\contracts\\ifinnhubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{385F0296-884F-7ECB-170E-FCED9240E399}|StocksApp.BLL\\StocksApp.BLL.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\stocksappsolution\\stocksapp.bll\\services\\implementations\\stocksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{385F0296-884F-7ECB-170E-FCED9240E399}|StocksApp.BLL\\StocksApp.BLL.csproj|solutionrelative:stocksapp.bll\\services\\implementations\\stocksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1264,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,80 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FinnhubService.cs",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.BLL\\Services\\Implementations\\FinnhubService.cs",
-              "RelativeDocumentMoniker": "StocksApp.BLL\\Services\\Implementations\\FinnhubService.cs",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.BLL\\Services\\Implementations\\FinnhubService.cs",
-              "RelativeToolTip": "StocksApp.BLL\\Services\\Implementations\\FinnhubService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAvwB0AAAAEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GetSellOrdersMethod.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.BLL.Tests\\Services\\Implementations\\StocksServiceTests\\GetSellOrdersMethod.cs",
+              "RelativeDocumentMoniker": "StocksApp.BLL.Tests\\Services\\Implementations\\StocksServiceTests\\GetSellOrdersMethod.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.BLL.Tests\\Services\\Implementations\\StocksServiceTests\\GetSellOrdersMethod.cs",
+              "RelativeToolTip": "StocksApp.BLL.Tests\\Services\\Implementations\\StocksServiceTests\\GetSellOrdersMethod.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAA3wDgAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T06:00:03.11Z",
+              "WhenOpened": "2026-07-17T04:33:01.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SelectedStockViewComponent.cs",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\ViewComponents\\SelectedStockViewComponent.cs",
-              "RelativeDocumentMoniker": "StocksApp.UI\\ViewComponents\\SelectedStockViewComponent.cs",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\ViewComponents\\SelectedStockViewComponent.cs",
-              "RelativeToolTip": "StocksApp.UI\\ViewComponents\\SelectedStockViewComponent.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAEAAAAAAAAAA==",
+              "Title": "GetBuyOrdersMethod.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.BLL.Tests\\Services\\Implementations\\StocksServiceTests\\GetBuyOrdersMethod.cs",
+              "RelativeDocumentMoniker": "StocksApp.BLL.Tests\\Services\\Implementations\\StocksServiceTests\\GetBuyOrdersMethod.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.BLL.Tests\\Services\\Implementations\\StocksServiceTests\\GetBuyOrdersMethod.cs",
+              "RelativeToolTip": "StocksApp.BLL.Tests\\Services\\Implementations\\StocksServiceTests\\GetBuyOrdersMethod.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDkAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T06:03:08.213Z",
+              "WhenOpened": "2026-07-17T04:29:01.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Explore.cshtml",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Views\\Stocks\\Explore.cshtml",
-              "RelativeDocumentMoniker": "StocksApp.UI\\Views\\Stocks\\Explore.cshtml",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Views\\Stocks\\Explore.cshtml",
-              "RelativeToolTip": "StocksApp.UI\\Views\\Stocks\\Explore.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-15T06:02:52.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StocksController.cs",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Controllers\\StocksController.cs",
-              "RelativeDocumentMoniker": "StocksApp.UI\\Controllers\\StocksController.cs",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Controllers\\StocksController.cs",
-              "RelativeToolTip": "StocksApp.UI\\Controllers\\StocksController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "StocksService.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.BLL\\Services\\Implementations\\StocksService.cs",
+              "RelativeDocumentMoniker": "StocksApp.BLL\\Services\\Implementations\\StocksService.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.BLL\\Services\\Implementations\\StocksService.cs",
+              "RelativeToolTip": "StocksApp.BLL\\Services\\Implementations\\StocksService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T05:58:39.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StocksApp.UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StocksApp.UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-15T05:57:42.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IFinnhubRepository.cs",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.DAL\\Repositories\\Contracts\\IFinnhubRepository.cs",
-              "RelativeDocumentMoniker": "StocksApp.DAL\\Repositories\\Contracts\\IFinnhubRepository.cs",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\StocksAppSolution\\StocksApp.DAL\\Repositories\\Contracts\\IFinnhubRepository.cs",
-              "RelativeToolTip": "StocksApp.DAL\\Repositories\\Contracts\\IFinnhubRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T05:56:56.821Z",
+              "WhenOpened": "2026-07-17T00:56:14.051Z",
               "EditorCaption": ""
             }
           ]

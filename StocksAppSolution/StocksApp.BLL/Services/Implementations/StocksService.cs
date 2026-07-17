@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using StocksApp.BLL.DTOs;
+using StocksApp.BLL.Exceptions;
 using StocksApp.BLL.Services.Contracts;
 using StocksApp.DAL.DbContexts;
 using StocksApp.DAL.Entities;
@@ -31,9 +32,17 @@ public class StocksService(IMapper mapper, IStocksRepository stocksRepository) :
         var validationContext = new ValidationContext(buyOrderRequest);
         var errors = new List<ValidationResult>();
         var isValid = Validator.TryValidateObject(buyOrderRequest, validationContext, errors, true);
+
         if (!isValid)
         {
-            throw new ArgumentException(string.Join(", ", errors.Select(e => e.ErrorMessage)));
+            var errorsDictionary = errors
+            .GroupBy(e => e.MemberNames.FirstOrDefault() ?? "General")
+            .ToDictionary(
+                g => g.Key,
+                g => g.Select(e => e.ErrorMessage ?? "Invalid value").ToArray()
+            );
+
+            throw new CustomValidationException(errorsDictionary);
         }
 
         var buyOrder = _mapper.Map<BuyOrder>(buyOrderRequest);
@@ -55,7 +64,11 @@ public class StocksService(IMapper mapper, IStocksRepository stocksRepository) :
         var isValid = Validator.TryValidateObject(sellOrderRequest, validationContext, errors, true);
         if (!isValid)
         {
-            throw new ArgumentException(string.Join(", ", errors.Select(e => e.ErrorMessage)));
+            var errorsDictionary = errors
+                .GroupBy(e => e.MemberNames?.FirstOrDefault() ?? "General")
+                .ToDictionary(g => g.Key, g => g.Select(e => e.ErrorMessage ?? "Invalid value").ToArray());
+
+            throw new CustomValidationException(errorsDictionary);
         }
 
         var sellOrder = _mapper.Map<SellOrder>(sellOrderRequest);
@@ -69,6 +82,11 @@ public class StocksService(IMapper mapper, IStocksRepository stocksRepository) :
     {
         //Returns the existing list of buy orders retrieved from database table called 'BuyOrders'.
         var orders = await _stocksRepository.GetBuyOrdersAsync();
+        if (orders == null || !orders.Any())
+        {
+            return [];
+        }
+
         return _mapper.Map<List<BuyOrderResponse>>(orders);
     }
 
@@ -76,6 +94,12 @@ public class StocksService(IMapper mapper, IStocksRepository stocksRepository) :
     {
         //Returns the existing list of sell orders retrieved from database table called 'SellOrders'.
         var orders = await _stocksRepository.GetSellOrdersAsync();
+
+        if (orders == null || !orders.Any())
+        {
+            return [];
+        }
+
         return _mapper.Map<List<SellOrderResponse>>(orders);
     }
 }

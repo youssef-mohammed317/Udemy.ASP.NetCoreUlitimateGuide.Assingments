@@ -19,8 +19,8 @@ public class StocksController(IFinnhubService finnhubService, IStocksService sto
 
         var stocks = await _finnhubService.GetStocks();
 
-        var top25 = _tradingOptions.Top25PopularStocks ?? "";
-        var requiredStocks = stocks?.Where(s => top25.Contains(s.Values.FirstOrDefault()!, StringComparison.CurrentCultureIgnoreCase)) ?? [];
+        var top25 = _tradingOptions.Top25PopularStocks!.Split(",").ToList();
+        var requiredStocks = stocks!.Where(s => top25.Contains(s["symbol"])).ToList();
 
         List<StockViewModel> viewModel = new List<StockViewModel>();
 
