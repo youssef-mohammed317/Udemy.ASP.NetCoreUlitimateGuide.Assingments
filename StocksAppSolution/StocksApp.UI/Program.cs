@@ -1,5 +1,5 @@
 using StocksApp.BLL;
-using StocksApp.UI.Options;
+using StocksApp.UI.CustomOptions;
 using StocksApp.DAL;
 using Rotativa.AspNetCore;
 
@@ -25,3 +25,5 @@ app.UseStaticFiles();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program { }

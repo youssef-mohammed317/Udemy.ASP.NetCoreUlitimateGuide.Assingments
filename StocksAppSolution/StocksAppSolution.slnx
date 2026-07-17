@@ -2,5 +2,7 @@
   <Project Path="StocksApp.BLL.Tests/StocksApp.BLL.Tests.csproj" Id="1f506ab9-d359-4fd1-a621-2c26326bc22f" />
   <Project Path="StocksApp.BLL/StocksApp.BLL.csproj" />
   <Project Path="StocksApp.DAL/StocksApp.DAL.csproj" Id="e9aebbee-a2c9-48a3-a1d8-e3f24e63b156" />
+  <Project Path="StocksApp.IntegrationTests/StocksApp.IntegrationTests.csproj" Id="bc0859b4-4767-4113-bfae-fa0e89161c8b" />
+  <Project Path="StocksApp.UI.Tests/StocksApp.UI.Tests.csproj" Id="72db59ec-7768-4ed7-b3e3-dd2e89ecc8dc" />
   <Project Path="StocksApp.UI/StocksApp.UI.csproj" />
 </Solution>

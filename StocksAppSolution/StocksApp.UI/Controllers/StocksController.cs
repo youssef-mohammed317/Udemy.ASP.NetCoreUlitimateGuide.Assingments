@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using StocksApp.BLL.Services.Contracts;
-using StocksApp.UI.Options;
+using StocksApp.UI.CustomOptions;
 using StocksApp.UI.ViewModels;
 
 namespace StocksApp.UI.Controllers;
@@ -17,7 +17,7 @@ public class StocksController(IFinnhubService finnhubService, IStocksService sto
     public async Task<IActionResult> Explore(string? stock)
     {
 
-        var stocks = await _finnhubService.GetStocks();
+        List<Dictionary<string, string>>? stocks = await _finnhubService.GetStocks();
 
         var top25 = _tradingOptions.Top25PopularStocks!.Split(",").ToList();
         var requiredStocks = stocks!.Where(s => top25.Contains(s["symbol"])).ToList();

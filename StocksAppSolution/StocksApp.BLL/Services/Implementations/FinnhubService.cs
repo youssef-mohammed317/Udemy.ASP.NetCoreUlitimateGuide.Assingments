@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using StocksApp.BLL.Services.Contracts;
 using StocksApp.DAL.Repositories.Contracts;
-using StocksApp.UI.Options;
+using StocksApp.UI.CustomOptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

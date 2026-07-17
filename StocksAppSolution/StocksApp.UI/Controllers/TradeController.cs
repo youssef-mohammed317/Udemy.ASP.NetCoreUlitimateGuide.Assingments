@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using Rotativa.AspNetCore;
 using StocksApp.BLL.DTOs;
 using StocksApp.BLL.Services.Contracts;
-using StocksApp.UI.Options;
+using StocksApp.UI.CustomOptions;
 using StocksApp.UI.ViewModels;
 
 namespace StocksApp.UI.Controllers;
@@ -17,7 +17,6 @@ public class TradeController(IFinnhubService finnhubService, IOptions<TradingOpt
     private readonly IStocksService _stocksService = stocksService;
 
     [HttpGet]
-    [Route("/")]
     public async Task<IActionResult> Index()
     {
         StockTradeViewModel viewModel = new StockTradeViewModel();
