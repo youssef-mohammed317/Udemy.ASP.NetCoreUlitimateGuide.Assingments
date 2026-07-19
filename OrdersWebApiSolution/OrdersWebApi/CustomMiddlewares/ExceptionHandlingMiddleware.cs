@@ -1,4 +1,5 @@
-﻿using OrdersWebApi.CustomExceptions;
+﻿using Microsoft.AspNetCore.Mvc;
+using OrdersWebApi.CustomExceptions;
 
 namespace OrdersWebApi.CustomMiddlewares;
 // You may need to install the Microsoft.AspNetCore.Http.Abstractions package into your project
@@ -16,31 +17,41 @@ public class ExceptionHandlingMiddleware
 
     public async Task Invoke(HttpContext context)
     {
-
         try
         {
             _logger.LogInformation("Start the request");
             await _next(context);
             _logger.LogInformation("End of the request successfully");
         }
-        catch (ArgumentNullException ex)
-        {
-            LogException(ex);
-
-        }
         catch (CustomValidationException ex)
         {
             LogException(ex);
+            await WriteProblemDetails(context, StatusCodes.Status400BadRequest, "Validation Error", ex.Message, ex.Errors);
         }
         catch (ResourceNotFoundException ex)
         {
             LogException(ex);
-
+            await WriteProblemDetails(context, StatusCodes.Status404NotFound, "Resource Not Found", ex.Message);
         }
         catch (Exception ex)
         {
             LogException(ex);
+            await WriteProblemDetails(context, StatusCodes.Status500InternalServerError, "Server Error", "An unexpected error occurred.");
         }
+    }
+
+    private static async Task WriteProblemDetails(
+        HttpContext context, int statusCode, string title, string detail,
+        IDictionary<string, string[]>? errors = null)
+    {
+        context.Response.ContentType = "application/problem+json";
+        context.Response.StatusCode = statusCode;
+
+        ProblemDetails problem = errors != null
+            ? new ValidationProblemDetails(errors) { Status = statusCode, Title = title, Detail = detail }
+            : new ProblemDetails { Status = statusCode, Title = title, Detail = detail };
+
+        await context.Response.WriteAsJsonAsync(problem);
     }
 
     private void LogException(Exception ex)

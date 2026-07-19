@@ -4,9 +4,9 @@ namespace OrdersWebApi.CustomExceptions;
 
 public class CustomValidationException : Exception
 {
-    public IReadOnlyDictionary<string, string[]> Errors { get; }
+    public IDictionary<string, string[]> Errors { get; }
 
-    public CustomValidationException(IReadOnlyDictionary<string, string[]> errors) : base("One or more error occurred.")
+    public CustomValidationException(IDictionary<string, string[]> errors) : base("One or more error occurred.")
     {
         Errors = errors;
     }

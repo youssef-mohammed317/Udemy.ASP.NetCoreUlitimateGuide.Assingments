@@ -2,14 +2,15 @@
 using OrdersWebApi.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace OrdersWebApi.DTOs;
+namespace OrdersWebApi.DTOs.OrderDto;
 
-public class EditOrderRequest
+public class OrderUpdateRequest
 {
     [Required]
     public Guid OrderId { get; set; }
 
     [Required]
-    [CheckMinCount(1)]
-    public ICollection<OrderItem>? Items { get; set; }
+    [MaxLength(50)]
+    public string? CustomerName { get; set; }
 }
+

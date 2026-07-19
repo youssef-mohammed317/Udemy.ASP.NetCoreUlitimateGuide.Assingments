@@ -3,44 +3,84 @@
   "WorkspaceRootPath": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\custommiddlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\custommiddlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\orderswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\orderswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\database\\configurations\\orderconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\database\\configurations\\orderconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\orderswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\orderswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\database\\configurations\\orderitemconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\database\\configurations\\orderitemconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\customexceptions\\customvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\customexceptions\\customvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\dtos\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\dtos\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\dtos\\orderitemdtos\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\dtos\\orderitemdtos\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\database\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\database\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\controllers\\customcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\controllers\\customcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\custommiddlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\custommiddlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\dtos\\orderdtos\\orderupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\dtos\\orderdtos\\orderupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\customexceptions\\customvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A933A5B-5917-47DC-B4B4-47DE88A112E0}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\customexceptions\\customvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\dtos\\orderitemdtos\\orderitemaddrequest.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\dtos\\orderitemdtos\\orderitemaddrequest.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\dtos\\orderdtos\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\dtos\\orderdtos\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\dtos\\orderdtos\\fullorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\dtos\\orderdtos\\fullorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\database\\configurations\\orderitemconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\database\\configurations\\orderitemconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\dtos\\orderdtos\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\dtos\\orderdtos\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\customattributes\\checkmincountattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\customattributes\\checkmincountattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\database\\configurations\\orderconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\database\\configurations\\orderconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\database\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\database\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|f:\\udemy\\learning\\asp.netcore\\assignments\\orderswebapisolution\\orderswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E34BD416-E7F1-1165-B555-B128FA06A608}|OrdersWebApi\\OrdersWebApi.csproj|solutionrelative:orderswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1459,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +106,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OrdersWebApi\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OrdersWebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-19T13:21:05.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderItemResponse.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderItemDtos\\OrderItemResponse.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\DTOs\\OrderItemDtos\\OrderItemResponse.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderItemDtos\\OrderItemResponse.cs",
+              "RelativeToolTip": "OrdersWebApi\\DTOs\\OrderItemDtos\\OrderItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T13:04:34.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderItemAddRequest.cs.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderItemDtos\\OrderItemAddRequest.cs.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\DTOs\\OrderItemDtos\\OrderItemAddRequest.cs.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderItemDtos\\OrderItemAddRequest.cs.cs",
+              "RelativeToolTip": "OrdersWebApi\\DTOs\\OrderItemDtos\\OrderItemAddRequest.cs.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T12:49:14.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomControllerBase.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Controllers\\CustomControllerBase.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\Controllers\\CustomControllerBase.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Controllers\\CustomControllerBase.cs",
+              "RelativeToolTip": "OrdersWebApi\\Controllers\\CustomControllerBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T12:39:53.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CheckMinCountAttribute.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\CustomAttributes\\CheckMinCountAttribute.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\CustomAttributes\\CheckMinCountAttribute.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\CustomAttributes\\CheckMinCountAttribute.cs",
+              "RelativeToolTip": "OrdersWebApi\\CustomAttributes\\CheckMinCountAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T12:39:35.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderDtos\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\DTOs\\OrderDtos\\OrderResponse.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderDtos\\OrderResponse.cs",
+              "RelativeToolTip": "OrdersWebApi\\DTOs\\OrderDtos\\OrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T12:34:21.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderUpdateRequest.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderDtos\\OrderUpdateRequest.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\DTOs\\OrderDtos\\OrderUpdateRequest.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderDtos\\OrderUpdateRequest.cs",
+              "RelativeToolTip": "OrdersWebApi\\DTOs\\OrderDtos\\OrderUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T12:37:39.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\Models\\OrderItem.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Models\\OrderItem.cs",
+              "RelativeToolTip": "OrdersWebApi\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T12:36:50.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\Models\\Order.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Models\\Order.cs",
+              "RelativeToolTip": "OrdersWebApi\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T12:36:26.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FullOrderResponse.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderDtos\\FullOrderResponse.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\DTOs\\OrderDtos\\FullOrderResponse.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderDtos\\FullOrderResponse.cs",
+              "RelativeToolTip": "OrdersWebApi\\DTOs\\OrderDtos\\FullOrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T12:34:17.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderDtos\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\DTOs\\OrderDtos\\CreateOrderRequest.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\OrderDtos\\CreateOrderRequest.cs",
+              "RelativeToolTip": "OrdersWebApi\\DTOs\\OrderDtos\\CreateOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T10:07:40.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\appsettings.json",
               "RelativeDocumentMoniker": "OrdersWebApi\\appsettings.json",
@@ -79,117 +262,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "OrderItemConfigurations.cs",
               "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Database\\Configurations\\OrderItemConfigurations.cs",
               "RelativeDocumentMoniker": "OrdersWebApi\\Database\\Configurations\\OrderItemConfigurations.cs",
               "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Database\\Configurations\\OrderItemConfigurations.cs",
               "RelativeToolTip": "OrdersWebApi\\Database\\Configurations\\OrderItemConfigurations.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T13:08:58.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "OrdersWebApi\\Controllers\\OrderController.cs",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "OrdersWebApi\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "OrdersWebApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "OrdersWebApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwDIAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T13:02:47.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateOrderRequest.cs",
-              "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\CreateOrderRequest.cs",
-              "RelativeDocumentMoniker": "OrdersWebApi\\DTOs\\CreateOrderRequest.cs",
-              "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\DTOs\\CreateOrderRequest.cs",
-              "RelativeToolTip": "OrdersWebApi\\DTOs\\CreateOrderRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T12:47:23.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "OrderConfigurations.cs",
               "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Database\\Configurations\\OrderConfigurations.cs",
               "RelativeDocumentMoniker": "OrdersWebApi\\Database\\Configurations\\OrderConfigurations.cs",
               "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Database\\Configurations\\OrderConfigurations.cs",
               "RelativeToolTip": "OrdersWebApi\\Database\\Configurations\\OrderConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T12:32:56.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Database\\Contexts\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "OrdersWebApi\\Database\\Contexts\\ApplicationDbContext.cs",
               "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Database\\Contexts\\ApplicationDbContext.cs",
               "RelativeToolTip": "OrdersWebApi\\Database\\Contexts\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T12:26:15.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "CustomValidationException.cs",
               "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\CustomExceptions\\CustomValidationException.cs",
               "RelativeDocumentMoniker": "OrdersWebApi\\CustomExceptions\\CustomValidationException.cs",
               "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\CustomExceptions\\CustomValidationException.cs",
               "RelativeToolTip": "OrdersWebApi\\CustomExceptions\\CustomValidationException.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T12:14:13.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\CustomMiddlewares\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "OrdersWebApi\\CustomMiddlewares\\ExceptionHandlingMiddleware.cs",
               "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\CustomMiddlewares\\ExceptionHandlingMiddleware.cs",
               "RelativeToolTip": "OrdersWebApi\\CustomMiddlewares\\ExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T12:04:26.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Program.cs",
               "RelativeDocumentMoniker": "OrdersWebApi\\Program.cs",
               "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\Program.cs",
               "RelativeToolTip": "OrdersWebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T11:39:42.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrdersWebApi",
+              "DocumentIndex": 4,
+              "Title": "OrdersWebApi.csproj",
               "DocumentMoniker": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\OrdersWebApi.csproj",
               "RelativeDocumentMoniker": "OrdersWebApi\\OrdersWebApi.csproj",
               "ToolTip": "F:\\Udemy\\Learning\\ASP.NetCore\\Assignments\\OrdersWebApiSolution\\OrdersWebApi\\OrdersWebApi.csproj",
               "RelativeToolTip": "OrdersWebApi\\OrdersWebApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-07-18T11:35:55.07Z",
               "EditorCaption": ""

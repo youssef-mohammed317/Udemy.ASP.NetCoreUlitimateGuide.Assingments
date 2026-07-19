@@ -1,8 +1,9 @@
 ﻿using OrdersWebApi.CustomAttributes;
+using OrdersWebApi.DTOs.OrderItemDtos;
 using OrdersWebApi.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace OrdersWebApi.DTOs;
+namespace OrdersWebApi.DTOs.OrderDtos;
 
 public class CreateOrderRequest
 {
@@ -12,5 +13,5 @@ public class CreateOrderRequest
 
     [Required]
     [CheckMinCount(1)]
-    public ICollection<OrderItem>? Items { get; set; }
+    public ICollection<OrderItemAddRequest>? Items { get; set; }
 }

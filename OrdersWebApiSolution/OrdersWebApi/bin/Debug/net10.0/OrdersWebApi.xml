@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrdersWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:OrdersWebApi.Database.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:OrdersWebApi.Database.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:OrdersWebApi.Database.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:OrdersWebApi.Database.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:OrdersController.GetAllOrders">
+            <summary>
+            Retrieves a list of all orders.
+            </summary>
+            <response code="200">Returns the list of orders.</response>
+        </member>
+        <member name="M:OrdersController.GetOrderById(System.Guid)">
+            <summary>
+            Retrieves an order by its ID.
+            </summary>
+            <param name="id">The ID of the order to retrieve.</param>
+            <response code="200">The order was found and returned.</response>
+            <response code="404">No order exists with the given ID.</response>
+        </member>
+        <member name="M:OrdersController.CreateOrder(OrdersWebApi.DTOs.OrderDtos.CreateOrderRequest)">
+            <summary>
+            Adds a new order along with its order items.
+            </summary>
+            <param name="request">The order details, including at least one item.</param>
+            <response code="201">The order was created successfully.</response>
+            <response code="400">The request failed validation (e.g. missing items).</response>
+        </member>
+        <member name="M:OrdersController.UpdateOrder(System.Guid,OrdersWebApi.DTOs.OrderDto.OrderUpdateRequest)">
+            <summary>
+            Updates an existing order's customer name.
+            </summary>
+            <param name="id">The ID of the order to update, from the route.</param>
+            <param name="request">The updated order details.</param>
+            <response code="200">The order was updated successfully.</response>
+            <response code="400">The ID in the route does not match the ID in the body.</response>
+            <response code="404">No order exists with the given ID.</response>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:OrdersController.DeleteOrder(System.Guid)" -->
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Type)">
+            <summary>
+            Generates a documentation comment ID for a type.
+            Example: T:Namespace.Outer+Inner`1 becomes T:Namespace.Outer.Inner`1
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Reflection.PropertyInfo)">
+            <summary>
+            Generates a documentation comment ID for a property.
+            Example: P:Namespace.ContainingType.PropertyName or for an indexer P:Namespace.ContainingType.Item(System.Int32)
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Type,System.String)">
+            <summary>
+            Generates a documentation comment ID for a property given its container type and property name.
+            Example: P:Namespace.ContainingType.PropertyName
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Reflection.MethodInfo)">
+            <summary>
+            Generates a documentation comment ID for a method (or constructor).
+            For example:
+              M:Namespace.ContainingType.MethodName(ParamType1,ParamType2)~ReturnType
+              M:Namespace.ContainingType.#ctor(ParamType)
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.GetTypeDocId(System.Type,System.Boolean,System.Boolean)">
+            <summary>
+            Generates a documentation ID string for a type.
+            This method handles nested types (replacing '+' with '.'),
+            generic types, arrays, pointers, by-ref types, and generic parameters.
+            The <paramref name="includeGenericArguments"/> flag controls whether
+            constructed generic type arguments are emitted, while <paramref name="omitGenericArity"/>
+            controls whether the generic arity marker (e.g. "`1") is appended.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.NormalizeDocId(System.String)">
+            <summary>
+            Normalizes a documentation comment ID to match the compiler-style format.
+            Strips the return type suffix for ordinary methods but retains it for conversion operators.
+            </summary>
+            <param name="docId">The documentation comment ID to normalize.</param>
+            <returns>The normalized documentation comment ID.</returns>
+        </member>
+    </members>
+</doc>

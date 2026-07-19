@@ -155,3 +155,11 @@ F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\
 F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\Debug\net10.0\OrdersWebApi.xml
+F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\Debug\net10.0\Microsoft.OpenApi.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\obj\Debug\net10.0\OrdersWebApi.MvcApplicationPartsAssemblyInfo.cs
+F:\Udemy\Learning\ASP.NetCore\Assignments\OrdersWebApiSolution\OrdersWebApi\obj\Debug\net10.0\OrdersWebApi.xml

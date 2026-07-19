@@ -2,7 +2,7 @@
 
 namespace OrdersWebApi.Controllers;
 
-[Route("api/[controller]/[action]")]
+[Route("api/[controller]")]
 [ApiController]
 public class CustomControllerBase : ControllerBase
 {
